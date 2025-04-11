@@ -44,9 +44,9 @@ A modern, responsive, and stylish portfolio website showcasing my skills, projec
 
 ## 📂 Deployment
 This project is deployed using Vercel. To deploy:
-1. Push changes to GitHub
-2. Connect the repo to Vercel
-3. Deploy and get a live link!
+✅ Push changes to GitHub
+🔗 Connect the repo to Vercel
+🚀 Deploy and get a live link!
 
 ## 👨‍💻 Author
 Ammaar Ahmad Khan 
