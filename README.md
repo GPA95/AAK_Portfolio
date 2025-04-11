@@ -42,11 +42,12 @@ A modern, responsive, and stylish portfolio website showcasing my skills, projec
    ```
 5️⃣ Open your browser and go to http://localhost:5173/ (or the URL provided in your terminal).
 
-## 📂 Deployment
-This project is deployed using Vercel. To deploy:
-✅ Push changes to GitHub
-🔗 Connect the repo to Vercel
-🚀 Deploy and get a live link!
+## 📂 Deployment  
+This project is deployed using Vercel. To deploy:  
+
+✅ **Push changes to GitHub**  
+🔗 **Connect the repo to Vercel**  
+🚀 **Deploy and get a live link!**  
 
 ## 👨‍💻 Author
 Ammaar Ahmad Khan 
