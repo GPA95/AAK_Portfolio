@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2024 Ammaar Ahmad Khan</p>
+      <p>© 2025 Ammaar Ahmad Khan</p>
     </footer>
   );
 }

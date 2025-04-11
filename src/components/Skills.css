@@ -1,9 +1,51 @@
 .skills {
+  text-align: center;
+  padding: 50px;
+}
+
+.skills h2 {
+  color: #7F5AF0;
+}
+
+/* Skill List */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* Skill Item (List Style) */
+.skill-item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 15px;
+  background-color: #11172E;
+  color: #E0E7FF;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Skill Icons */
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+/* Hover Effect */
+.skill-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(127, 90, 240, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .skill-item {
+    flex-direction: column;
     text-align: center;
-    padding: 50px;
   }
-  
-  .skills h2 {
-    color: #7F5AF0;
-  }
-  
+}

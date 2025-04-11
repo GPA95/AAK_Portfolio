@@ -1,9 +1,100 @@
 .contact {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  .contact h2 {
-    color: #7F5AF0;
-  }
-  
+  text-align: center;
+  padding: 50px;
+}
+
+.contact h2 {
+  color: #7F5AF0;
+}
+
+/* Form Container */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Input Fields */
+.contact-form input,
+.contact-form textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #7F5AF0;
+  border-radius: 5px;
+  background-color: #11172E;
+  color: #E0E7FF;
+}
+
+/* Buttons Container */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Base Button Style (Outline Only) */
+.whatsapp-btn, .email-btn, .linkedin-btn, .github-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: transparent;
+  border: 2px solid;
+}
+
+/* Individual Button Borders */
+.whatsapp-btn {
+  border-color: #25D366;
+  color: #25D366;
+}
+
+.email-btn {
+  border-color: #D44638;
+  color: #D44638;
+}
+
+.linkedin-btn {
+  border-color: #0077B5;
+  color: #0077B5;
+}
+
+.github-btn {
+  border-color: #808080;
+  color: #808080;
+}
+
+/* Button Icons */
+.contact-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Hover Effect: Fill the Buttons */
+.whatsapp-btn:hover {
+  background-color: #25D366;
+  color: white;
+}
+
+.email-btn:hover {
+  background-color: #D44638;
+  color: white;
+}
+
+.linkedin-btn:hover {
+  background-color: #0077B5;
+  color: white;
+}
+
+.github-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
