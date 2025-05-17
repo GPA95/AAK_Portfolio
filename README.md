@@ -1,7 +1,6 @@
 # AAK Portfolio 🚀  
 A modern, responsive, and stylish portfolio website showcasing my skills, projects, and contact details.  
 
-## 🔥 Live Demo  
 [Click here to view the live website]( https://ammaar-portfolio-website.vercel.app)  
 
 ## 📌 Features  
