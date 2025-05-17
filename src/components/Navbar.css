@@ -52,7 +52,7 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    padding-left: 0px;
+    padding-left: 480px;
     transition: all 0.3s ease-in-out;
 }
 
