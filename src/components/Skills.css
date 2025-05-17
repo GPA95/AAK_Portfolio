@@ -1,45 +1,108 @@
 .skills {
   text-align: center;
   padding: 50px;
+  align-items: center;
 }
 
 .skills h2 {
   color: #7F5AF0;
 }
 
-/* Skill List */
-.skills-list {
-  list-style: none;
-  padding: 0;
+.skill-categories {
   max-width: 600px;
-  margin: 30px auto;
+  margin: auto;
 }
 
-/* Skill Item (List Style) */
+.skill-category {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #11172E;
+  color: aqua;
+  overflow: hidden;
+}
+
+.category-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #11172E;
+  color: #E0E7FF;
+  font-size: 1.1rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #151C35;
+}
+
+.dropdown-icon {
+  float: right;
+  font-size: 1.2rem;
+  color: #7F5AF0;
+  transition: transform 0.3s ease;
+}
+
+.category-button.open .dropdown-icon {
+  transform: rotate(360deg);
+}
+
+/* Smooth dropdown */
+.skills-list {
+  list-style: none;
+  padding: 0 15px;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.skills-list.open {
+  padding-top: 15px;
+  max-height: 1000px;
+  opacity: 1;
+}
+
+/* Skill Item */
 .skill-item {
   display: flex;
+  height: 50px;
   align-items: center;
   text-align: left;
   gap: 15px;
-  background-color: #11172E;
   color: #E0E7FF;
+  background-color: #11172E;
+  border: rgba(127, 90, 240, 0.3) 0.5px dotted;
   padding: 15px;
   border-radius: 8px;
-  margin-bottom: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Skill Icons */
+.skill-item h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.skill-item p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #b0b8e4;
+}
+
 .skill-icon {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   flex-shrink: 0;
 }
 
-/* Hover Effect */
 .skill-item:hover {
   transform: scale(1.02);
-  box-shadow: 0px 4px 10px rgba(127, 90, 240, 0.4);
+  box-shadow: 0px 4px 10px rgba(127, 90, 240, 0.3);
 }
 
 /* Responsive */
@@ -47,5 +110,16 @@
   .skill-item {
     flex-direction: column;
     text-align: center;
+    height: auto;
+  }
+
+  .category-button {
+    text-align: center;
+  }
+
+  .dropdown-icon {
+    display: block;
+    margin-top: 10px;
+    float: none;
   }
 }
