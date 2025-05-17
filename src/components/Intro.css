@@ -6,7 +6,7 @@
     min-height: 100vh; /* Ensures full-screen section */
     text-align: center;
     padding: 3rem; /* More spacing around */
-    margin-top: -10px;
+    margin-top: 0px;
   }
   
   /* Container for image & text */
@@ -98,6 +98,10 @@
   
   /* Mobile Adjustments */
   @media (max-width: 768px) {
+    .intro {
+      margin-top: 25px; /* Reset margin */
+    }
+
     .intro-text h1 {
       font-size: 2rem;
     }
