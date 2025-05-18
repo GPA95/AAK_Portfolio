@@ -1,26 +1,48 @@
 # AAK Portfolio 🚀  
-A modern, responsive, and stylish portfolio website showcasing my skills, projects, and contact details.  
+A modern, responsive, and stylish portfolio website showcasing my skills, projects, and contact details.
 
-[Click here to view the live website]( https://ammaar-portfolio-website.vercel.app)  
+[🔗 Click here to view the live website](https://ammaar-portfolio-website.vercel.app)
+
+![version](https://img.shields.io/badge/version-1.1.0-purple)  
+🌟 If you like this project, consider giving it a ⭐ on GitHub!
+
+---
 
 ## 📌 Features  
-✅ Fully responsive design  
+✅ Fully responsive design (improved in v1.1.0)  
 ✅ Dark/Light mode toggle 🌗  
 ✅ Smooth animations & transitions  
 ✅ Well-structured project showcase  
-✅ User-friendly navigation with a hamburger menu  
+✅ Categorized dropdown **Skills Section** (new!)  
+✅ Hamburger menu for mobile view (now fixed!)  
 ✅ Contact section with direct links  
+
+---
 
 ## 🛠️ Tech Stack  
 - **React.js** – Component-based UI  
 - **Vite** – Fast build tool for development  
-- **CSS + Flexbox/Grid** – Custom styling for a sleek look  
+- **CSS** – Custom styling for a sleek, responsive layout  
+
+---
 
 ## 🎨 Theme  
-- **🌞 Light Theme:** A clean and professional look with a white background, deep navy text, and vibrant neon purple accents.
-- **🌙 Dark Theme:** A sleek, modern design with a deep midnight blue background, soft white text, and the same neon purple highlights for consistency.
-- Users can seamlessly switch between these two themes using the Theme Toggle Button in the navbar. The transition is smooth, and all elements adapt dynamically to the selected theme.
-- This dual-theme approach ensures accessibility and enhances user experience, catering to both bright and dark mode preferences. 🚀💡🌙
+- **🌞 Light Theme:** Clean, professional look with white backgrounds and deep navy text.  
+- **🌙 Dark Theme:** Sleek design with a midnight blue background and neon purple highlights.  
+- 🔄 Seamless toggle with dynamic theme adaptation for all elements.  
+- ✨ Enhanced accessibility and user preference support.
+
+---
+
+## 🧠 What’s New in v1.1.0  
+> See full changelog in [`CHANGELOG.md`](./CHANGELOG.md)
+
+- 🧩 Added **Projects**: PDSR & Portfolio v1  
+- 📱 Improved **mobile responsiveness**  
+- 🧠 Redesigned **Skills Section** using categorized dropdowns  
+- 🎨 UI tweaks and layout enhancements  
+
+---
 
 ## 🚀 Installation & Setup  
 1️⃣ Clone the repository:  
@@ -41,6 +63,8 @@ A modern, responsive, and stylish portfolio website showcasing my skills, projec
    ```
 5️⃣ Open your browser and go to http://localhost:5173/ (or the URL provided in your terminal).
 
+---
+
 ## 📂 Deployment  
 This project is deployed using Vercel. To deploy:  
 
@@ -48,7 +72,10 @@ This project is deployed using Vercel. To deploy:
 🔗 **Connect the repo to Vercel**  
 🚀 **Deploy and get a live link!**  
 
+---
+
 ## 👨‍💻 Author
-Ammaar Ahmad Khan 
+Ammaar Ahmad Khan - @GPA95
+> “This project is my digital identity. It grows with every skill I learn, project I build, and experience I gain.”
 
 🌟 If you like this project, leave a star on GitHub! 🌟
