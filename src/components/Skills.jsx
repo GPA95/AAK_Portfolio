@@ -24,12 +24,13 @@ import Jupyter from "../assets/Jupyter.png";
 import Arduino from "../assets/arduino.png";
 import MySQL from "../assets/MySQL.png";
 import Vercel from "../assets/Vercel.png";
-import Markdown from "../assets/markdown.png";
-import MIT from "../assets/AI2_logo2.png";
 import Drive from "../assets/GDrive.png";
 import MSO from "../assets/msoffice.png";
 import Canva from "../assets/Canva.png";
 import YT from "../assets/youtube.png";
+import N from "../assets/Notion.png";
+import Markdown from "../assets/markdown.png";
+import MIT from "../assets/AI2_logo2.png";
 import Audacity from "../assets/audacity.png";
 import Team from "../assets/team2.png";
 import Time from "../assets/time2.png";
@@ -84,12 +85,13 @@ const skillCategories = [
   {
     title: "🧰 Additional Tools",
     skills: [
-      { name: "Markdown", description: "Lightweight markup for documentation", image: Markdown },
-      { name: "MIT App Inventor", description: "Drag-and-drop Android app development", image: MIT },
       { name: "Google Drive", description: "Cloud-based document and resource management, especially for study materials", image: Drive },
       { name: "MS Office", description: "Proficient in Word, Excel, and PowerPoint", image: MSO },
       { name: "Canva", description: "Design tool for visual content and presentations", image: Canva },
       { name: "YouTube", description: "Content creation and editing for Islamic videos", image: YT },
+      { name: "Notion", description: "Comprehensive personal, academic, and project management", image: N },
+      { name: "Markdown", description: "Lightweight markup for documentation", image: Markdown },
+      { name: "MIT App Inventor", description: "Drag-and-drop Android app development", image: MIT },
       { name: "Audacity", description: "Audio recording and editing for Quran recitations", image: Audacity },
     ],
   },
