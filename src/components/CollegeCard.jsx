@@ -10,7 +10,7 @@ export default function CollegeCard() {
           <img src={IUL} alt="College Logo" className="edu-logo" />
         </div>
         <div className="edu-right">
-          <h3>Integral University, Lucknow</h3>
+          <h3>Integral University, Lucknow, Uttar Pradesh, India</h3>
           <p className="edu-subtitle">B.Tech – Computer Science and Engineering (2023–2027)</p>
           <p className="edu-subtitle">Ongoing 5th Semester</p>
         </div>

@@ -9,7 +9,7 @@ export default function SchoolCard() {
           <img src={IISJ} alt="School Logo" className="edu-logo" />
         </div>
         <div className="edu-right">
-          <h3>International Indian School, Jeddah</h3>
+          <h3>International Indian School, Jeddah, Saudi Arabia</h3>
           <p className="edu-subtitle">Senior Secondary (Class 11 & 12) – 2023</p>
         </div>
       </div>
