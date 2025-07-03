@@ -87,6 +87,10 @@
 
 /* Responsive */
 @media (max-width: 600px) {
+  .educard{
+    max-width: 50%;
+  }
+  
   .edu-top {
     flex-direction: column;
     text-align: center;
