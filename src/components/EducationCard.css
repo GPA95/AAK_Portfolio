@@ -1,0 +1,182 @@
+/* Card Container */
+.edu-card {
+  background-color: #11172E;
+  color: #E0E7FF;
+  max-width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(127, 90, 240, 0.15);
+}
+
+/* Top Section: Flex Row */
+.edu-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Left: Circular Image */
+.edu-left {
+  flex: 0 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edu-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Right: School/College Info */
+.edu-right {
+  flex: 1;
+}
+
+.edu-right h3 {
+  margin: 0;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.edu-subtitle {
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+/* Bottom Section: Full Width */
+.edu-bottom {
+  margin-top: 12px;
+  text-align: left;
+}
+
+.edu-bottom p {
+    line-height: 1.8rem;
+}
+
+/* Accordion inside bottom (college only) */
+.accordion {
+  margin-top: 10px;
+}
+
+.accordion-toggle {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 5px 0;
+  transition: color 0.2s ease;
+}
+
+.accordion-toggle:hover {
+  color: #a790ff;
+}
+
+.accordion-content {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+  color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .edu-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .edu-bottom {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+.year-accordion {
+  text-align: left;
+  margin-top: 20px;
+  border-top: 1px solid #303A60;
+  padding-top: 0px;
+}
+
+.year-toggle {
+  width: 100%;
+  background: linear-gradient(90deg, var(--accent), #9f8fff);
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgba(127, 90, 240, 0.3);
+  cursor: pointer;
+  transition: background 10s ease;
+}
+
+.year-toggle:hover {
+  background: linear-gradient(90deg, #a27cff, #c3afff);
+}
+
+.year-toggle span:first-child {
+  font-size: 1.1rem;
+}
+
+.year-toggle span:last-child {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.year-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.semester-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.semester-column h4 {
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 4px;
+}
+
+.semester-column ul {
+  list-style: none;
+  padding-left: 0;
+  color: var(--text-secondary);
+}
+
+.semester-column li {
+  margin: 4px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .year-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .year-toggle {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    }
+}

@@ -49,7 +49,7 @@ function Contact() {
 
   return (
     <section id="contact" className="contact">
-      <h2>Contact Me</h2>
+      <h2>CONTACTS</h2>
       <p>Fill in your details and reach out to me via WhatsApp or Email.</p>
 
       <div className="contact-form">
