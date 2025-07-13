@@ -34,7 +34,7 @@ function Projects() {
     },
     {
       title: "Student Academic Workspace",
-      description: "An all-in-one Notion dashboard designed for academic planning and productivity. It includes static and database-driven modules for managing weekly timetables, semester courses, exam schedules, assignment/ILI tracking, and event calendars.",
+      description: "An all-in-one Notion dashboard designed for academic planning and productivity. It includes static and database-driven modules for managing weekly timetables, semester courses, exam schedules, assignment & quiz tracking, and event calendars.",
       image: SAW, // Ensure this image exists
       githubLink: "https://github.com/GPA95/Student_Academic_Workspace_Notion",
     },
