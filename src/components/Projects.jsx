@@ -4,6 +4,7 @@ import ESHOP from "../assets/ESHOP.png";
 import TDA from "../assets/TDA2.png";
 import APW from "../assets/APW2.jpg";
 import PDSR from "../assets/PDSR.jpg";
+import SAW from "../assets/SAW3.jpg";
 
 function Projects() {
   const projects = [
@@ -30,6 +31,12 @@ function Projects() {
       description: "A modern, responsive personal portfolio website built with React.js and Vite. It features a dynamic theme toggle, project showcase, and interactive skill highlights, providing a professional way to display my work and skills.",
       image: APW, // Ensure this image exists
       githubLink: "https://github.com/GPA95/AAK_Portfolio",
+    },
+    {
+      title: "Student Academic Workspace",
+      description: "An all-in-one Notion dashboard designed for academic planning and productivity. It includes static and database-driven modules for managing weekly timetables, semester courses, exam schedules, assignment/ILI tracking, and event calendars.",
+      image: SAW, // Ensure this image exists
+      githubLink: "https://github.com/GPA95/Student_Academic_Workspace_Notion",
     },
   ];
 
