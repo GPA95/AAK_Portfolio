@@ -5,6 +5,7 @@ import TDA from "../assets/TDA2.png";
 import APW from "../assets/APW2.jpg";
 import PDSR from "../assets/PDSR.jpg";
 import SAW from "../assets/SAW3.jpg";
+import DVBI from "../assets/Graphs.png";
 
 function Projects() {
   const projects = [
@@ -37,6 +38,12 @@ function Projects() {
       description: "An all-in-one Notion dashboard designed for academic planning and productivity. It includes static and database-driven modules for managing weekly timetables, semester courses, exam schedules, assignment & quiz tracking, and event calendars.",
       image: SAW, // Ensure this image exists
       githubLink: "https://github.com/GPA95/Student_Academic_Workspace_Notion",
+    },
+    {
+      title: "Data Visualization – Business Insights",
+      description: "This project, in a Forage x Tata job simulation, involves data preprocessing and analyzing retail data with Python libraries, and building Tableau dashboards to deliver business insights on sales, segmentation, and performance.",
+      image: DVBI,
+      githubLink: "https://github.com/GPA95/Online_Retail_Data_Viz",
     },
   ];
 
