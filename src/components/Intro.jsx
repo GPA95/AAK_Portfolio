@@ -16,10 +16,10 @@ function Intro() {
             Hey, I'm <span className="highlight">Ammaar Ahmad Khan</span>!
           </h1>
           <p className="headline">
-            CS Junior | AI & Data Science Enthusiast | Aspiring Engineer
+            Computer Science Junior | AI & Data Science Enthusiast | Concept to Creation
           </p>
           <p className="bio">
-          As a 3rd-year Computer Science and Engineering student at Integral University, Lucknow, I am passionate about solving real-world problems through AI, Data Science, and Software Engineering. My academic foundation includes Python, SQL, Java, and C, along with growing expertise in Web Development and Robotics Software.
+          I’m a third-year Computer Science student, passionate about solving real-world problems through Artificial Intelligence, Data Science, and Software Engineering. My experience spans across AI/ML, full-stack web development, data visualization, and robotics software. I’ve built projects ranging from responsive web apps and business dashboards to research-driven robotics. With certifications and hands-on hackathon experience, I actively pursue opportunities to apply my skills through impactful projects and internships.
           </p>
           <div className="cta-buttons">
           <a href="https://drive.google.com/file/d/1M6ItSGVehXU9Lx2JcuopREkY6nrHHf2h/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-outline">📄 View My CV</a>
