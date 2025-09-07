@@ -8,10 +8,14 @@ import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import reactjs from "../assets/react.svg";
+import NodeJS from "../assets/nodejs.png";
+import ExpressJS from "../assets/expressjs.png";
+import MongoDB from "../assets/mongodb.png";
 import Pandas from "../assets/pandas.png";
 import Numpy from "../assets/numpylogo.svg";
 import Matplotlib from "../assets/Matplotlib_icon.svg";
 import Seaborn from "../assets/seaborn-1.svg";
+import Plotly from "../assets/Plotly.svg";
 import Git from "../assets/Git.svg";
 import MATLAB from "../assets/matlab.svg";
 import Simulink from "../assets/Simulink.png";
@@ -20,6 +24,7 @@ import Anaconda from "../assets/anaconda.png";
 import Jupyter from "../assets/Jupyter.png";
 import Arduino from "../assets/arduino.png";
 import MySQL from "../assets/MySQL.png";
+import Tableau from "../assets/tableau.png";
 import Vercel from "../assets/Vercel.png";
 import Drive from "../assets/GDrive.png";
 import MSO from "../assets/msoffice.png";
@@ -53,7 +58,11 @@ const skillCategories = [
       { name: "HTML", description: "Markup language expertise for structuring webpages", image: HTML },
       { name: "CSS", description: "Design, layout, and responsiveness with custom styling", image: CSS },
       { name: "Bootstrap", description: "Responsive design with prebuilt components", image: Bootstrap },
+      { name: "MongoDB", description: "NoSQL database for flexible, document-based data storage", image: MongoDB },
+      { name: "Express.js", description: "Minimalist web framework for building REST APIs", image: ExpressJS },
       { name: "React", description: "Modern web development with reusable components", image: reactjs },
+      { name: "Node.js", description: "Backend development with scalable, event-driven JavaScript runtime", image: NodeJS },
+
     ],
   },
   {
@@ -63,6 +72,7 @@ const skillCategories = [
       { name: "NumPy", description: "Array operations and numerical computing", image: Numpy },
       { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
       { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
+      { name: "Plotly", description: "Interactive and dynamic data visualizations", image: Plotly },
     ],
   },
   {
@@ -76,7 +86,9 @@ const skillCategories = [
       { name: "Jupyter", description: "Notebook-based code experimentation and reporting", image: Jupyter },
       { name: "Arduino IDE", description: "Microcontroller programming for hardware interfacing", image: Arduino },
       { name: "MySQL", description: "Structured data storage and query execution", image: MySQL },
+      { name: "Tableau", description: "Interactive dashboards and business data visualization", image: Tableau },
       { name: "Vercel", description: "Deploying and scaling modern web applications", image: Vercel },
+      
     ],
   },
   {
