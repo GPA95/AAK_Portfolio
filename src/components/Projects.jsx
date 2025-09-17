@@ -10,10 +10,10 @@ import DVBI from "../assets/Graphs.png";
 function Projects() {
   const projects = [
     {
-      title: "E-SHOP Departmental Store",
-      description: "A Python-based e-commerce project that includes product listing, user authentication, shopping cart functionality, and order processing. It integrates with an SQL database, showcasing Python programming concepts and database integration.",
-      image: ESHOP, // Make sure this image exists in src/assets
-      githubLink: "https://github.com/GPA95/ESHOP",
+      title: "Pendulum-Driven Spherical Robot",
+      description: "A self-balancing spherical robot featuring PID-controlled motion, sensor-based obstacle avoidance, and wireless Android app control, developed with MATLAB, Simulink, and embedded systems for agile, precise navigation.",
+      image: PDSR, // Ensure this image exists
+      githubLink: "https://github.com/abdulmalik812/Spherical_Robot",
     },
     {
       title: "Tourism Dataset Analytics",
@@ -22,10 +22,10 @@ function Projects() {
       githubLink: "https://github.com/GPA95/tourism-dataset-analytics",
     },
     {
-      title: "Pendulum-Driven Spherical Robot",
-      description: "A self-balancing spherical robot featuring PID-controlled motion, sensor-based obstacle avoidance, and wireless Android app control, developed with MATLAB, Simulink, and embedded systems for agile, precise navigation.",
-      image: PDSR, // Ensure this image exists
-      githubLink: "https://github.com/abdulmalik812/Spherical_Robot",
+      title: "Data Visualization – Business Insights",
+      description: "This project, in a Forage x Tata job simulation, involves data preprocessing and analyzing retail data with Python libraries, and building Tableau dashboards to deliver business insights on sales, segmentation, and performance.",
+      image: DVBI,
+      githubLink: "https://github.com/GPA95/Online_Retail_Data_Viz",
     },
     {
       title: "Personal Portfolio Website",
@@ -34,16 +34,16 @@ function Projects() {
       githubLink: "https://github.com/GPA95/AAK_Portfolio",
     },
     {
+      title: "E-SHOP Departmental Store",
+      description: "A Python-based e-commerce project that includes product listing, user authentication, shopping cart functionality, and order processing. It integrates with an SQL database, showcasing Python programming concepts and database integration.",
+      image: ESHOP, // Make sure this image exists in src/assets
+      githubLink: "https://github.com/GPA95/ESHOP",
+    },
+    {
       title: "Student Academic Workspace",
       description: "An all-in-one Notion dashboard designed for academic planning and productivity. It includes static and database-driven modules for managing weekly timetables, semester courses, exam schedules, assignment & quiz tracking, and event calendars.",
       image: SAW, // Ensure this image exists
       githubLink: "https://github.com/GPA95/Student_Academic_Workspace_Notion",
-    },
-    {
-      title: "Data Visualization – Business Insights",
-      description: "This project, in a Forage x Tata job simulation, involves data preprocessing and analyzing retail data with Python libraries, and building Tableau dashboards to deliver business insights on sales, segmentation, and performance.",
-      image: DVBI,
-      githubLink: "https://github.com/GPA95/Online_Retail_Data_Viz",
     },
   ];
 
