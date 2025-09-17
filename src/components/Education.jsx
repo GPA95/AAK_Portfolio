@@ -7,8 +7,8 @@ export default function Education() {
     <section id="education" className="education">
       <div className="container-centered">
         <h2>EDUCATION</h2>
-        <SchoolCard />
         <CollegeCard />
+        <SchoolCard />
       </div>
     </section>
   );
