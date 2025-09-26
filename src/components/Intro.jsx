@@ -24,7 +24,7 @@ function Intro() {
           <div className="cta-buttons">
           <a href="https://drive.google.com/file/d/1M6ItSGVehXU9Lx2JcuopREkY6nrHHf2h/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-outline">📄 View My CV</a>
 
-          <a href="https://www.linkedin.com/in/ammaar-ahmad-khan-0044b9320/" target="_blank" className="btn btn-outline">🔗 View LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ammaar-ahmad-khan/" target="_blank" className="btn btn-outline">🔗 View LinkedIn</a>
           </div>
         </div>
       </div>

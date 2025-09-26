@@ -39,7 +39,7 @@ function Contact() {
 
   // Function to open LinkedIn profile
   const handleLinkedInClick = () => {
-    window.open("https://www.linkedin.com/in/ammaar-ahmad-khan-0044b9320/", "_blank");
+    window.open("https://www.linkedin.com/in/ammaar-ahmad-khan/", "_blank");
   };
 
   // Function to open GitHub profile
