@@ -6,6 +6,7 @@ import whatsappIcon from "../assets/whatsapp.png";
 import emailIcon from "../assets/gmail.png";
 import linkedinIcon from "../assets/linkedin.png";
 import githubIcon from "../assets/github.png";
+import ytIcon from "../assets/youtube.png";
 
 function Contact() {
   // State to store user input
@@ -47,6 +48,11 @@ function Contact() {
     window.open("https://github.com/GPA95", "_blank");
   };
 
+    // Function to open YouTube channel
+  const handleYouTubeClick = () => {
+    window.open("https://www.youtube.com/@quranrecitationmadina", "_blank");
+  };
+
   return (
     <section id="contact" className="contact">
       <h2>CONTACTS</h2>
@@ -82,6 +88,10 @@ function Contact() {
           <button onClick={handleGitHubClick} className="github-btn">
             <img src={githubIcon} alt="GitHub" className="contact-icon" />
             Visit GitHub
+          </button>
+          <button onClick={handleYouTubeClick} className="youtube-btn">
+            <img src={ytIcon} alt="YouTube" className="contact-icon" />
+            Visit YouTube
           </button>
         </div>
       </div>

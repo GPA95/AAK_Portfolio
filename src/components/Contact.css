@@ -38,7 +38,11 @@
 }
 
 /* Base Button Style (Outline Only) */
-.whatsapp-btn, .email-btn, .linkedin-btn, .github-btn {
+.whatsapp-btn,
+.email-btn,
+.linkedin-btn,
+.github-btn,
+.youtube-btn {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -72,6 +76,11 @@
   color: #808080;
 }
 
+.youtube-btn {
+  border-color: #FF0000;
+  color: #FF0000;
+}
+
 /* Button Icons */
 .contact-icon {
   width: 24px;
@@ -85,7 +94,7 @@
 }
 
 .email-btn:hover {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.521);
   color: white;
 }
 
@@ -97,4 +106,9 @@
 .github-btn:hover {
   background-color: #000000;
   color: #ffffff;
+}
+
+.youtube-btn:hover {
+  background-color: #FF0100;
+  color: white;
 }

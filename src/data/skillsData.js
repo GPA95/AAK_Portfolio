@@ -11,11 +11,13 @@ import reactjs from "../assets/react.svg";
 import NodeJS from "../assets/nodejs.png";
 import ExpressJS from "../assets/expressjs.png";
 import MongoDB from "../assets/mongodb.png";
+import API from "../assets/API.png";
 import Pandas from "../assets/pandas.png";
 import Numpy from "../assets/numpylogo.svg";
 import Matplotlib from "../assets/Matplotlib_icon.svg";
 import Seaborn from "../assets/seaborn-1.svg";
 import Plotly from "../assets/Plotly.svg";
+import Streamlit from "../assets/streamlit.png";
 import Git from "../assets/Git.svg";
 import MATLAB from "../assets/matlab.svg";
 import Simulink from "../assets/Simulink.png";
@@ -25,7 +27,7 @@ import Jupyter from "../assets/Jupyter.png";
 import Arduino from "../assets/arduino.png";
 import MySQL from "../assets/MySQL.png";
 import Tableau from "../assets/tableau.png";
-import Vercel from "../assets/Vercel.png";
+import Netlify from "../assets/netlify.png";
 import Drive from "../assets/GDrive.png";
 import MSO from "../assets/msoffice.png";
 import Canva from "../assets/Canva.png";
@@ -62,6 +64,7 @@ const skillCategories = [
       { name: "Express.js", description: "Minimalist web framework for building REST APIs", image: ExpressJS },
       { name: "React", description: "Modern web development with reusable components", image: reactjs },
       { name: "Node.js", description: "Backend development with scalable, event-driven JavaScript runtime", image: NodeJS },
+      { name: "API", description: "Interface enabling communication between web apps", image: API },
 
     ],
   },
@@ -73,6 +76,7 @@ const skillCategories = [
       { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
       { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
       { name: "Plotly", description: "Interactive and dynamic data visualizations", image: Plotly },
+      { name: "Streamlit", description: "Rapidly building interactive web apps in Python", image: Streamlit },
     ],
   },
   {
@@ -87,27 +91,26 @@ const skillCategories = [
       { name: "Arduino IDE", description: "Microcontroller programming for hardware interfacing", image: Arduino },
       { name: "MySQL", description: "Structured data storage and query execution", image: MySQL },
       { name: "Tableau", description: "Interactive dashboards and business data visualization", image: Tableau },
-      { name: "Vercel", description: "Deploying and scaling modern web applications", image: Vercel },
+      { name: "Netlify", description: "Deploying and scaling modern web applications", image: Netlify },
       
     ],
   },
   {
     title: "🧰 Additional Tools",
     skills: [
-      { name: "Google Drive", description: "Cloud-based document and resource management, especially for study materials", image: Drive },
+      { name: "Google Drive", description: "Cloud-based document and resource management for study materials", image: Drive },
       { name: "MS Office", description: "Proficient in Word, Excel, and PowerPoint", image: MSO },
       { name: "Canva", description: "Design tool for visual content and presentations", image: Canva },
       { name: "YouTube", description: "Content creation and editing for Islamic videos", image: YT },
       { name: "Notion", description: "Comprehensive personal, academic, and project management", image: N },
       { name: "Markdown", description: "Lightweight markup for documentation", image: Markdown },
-      { name: "MIT App Inventor", description: "Drag-and-drop Android app development", image: MIT },
       { name: "Audacity", description: "Audio recording and editing for Quran recitations", image: Audacity },
     ],
   },
   {
     title: "💼 Professional Skills",
     skills: [
-      { name: "Team Collaboration", description: "Engaged in interdisciplinary projects and always open to collaborating on new and diverse initiatives", image: Team },
+      { name: "Team Collaboration", description: "Engaged in interdisciplinary projects and hackathons and always open to collaborating", image: Team },
       { name: "Time Management", description: "Strategically schedule studies, tasks, and activities into manageable phases and track daily progress consistently", image: Time },
       { name: "Content Creation", description: "Run my personal Quran YouTube channel and regularly create documents, presentations, and spreadsheets for educational and productivity purposes", image: Content },
       { name: "Communication", description: "Value clear and consistent communication with peers; strong oral and written skills, including crafting well-structured educational content", image: Communication},

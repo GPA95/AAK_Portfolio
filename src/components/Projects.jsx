@@ -6,9 +6,16 @@ import APW from "../assets/APW2.jpg";
 import PDSR from "../assets/PDSR.jpg";
 import SAW from "../assets/SAW3.jpg";
 import DVBI from "../assets/Graphs.png";
+import SGPAI from "../assets/SGPAI.png";
 
 function Projects() {
   const projects = [
+    {
+      title: "AI-Powered Study Assistant",
+      description: "An AI-driven web app built with Streamlit and Gemini 2.5 Flash API that explains concepts, summarizes topics, extracts content from PDFs, and generates quizzes, thereby providing fast, interactive academic support through a clean chat-based interface.",
+      image: SGPAI, // Ensure this image exists
+      githubLink: "https://github.com/GPA95/AI_StudyBuddy",
+    },
     {
       title: "Pendulum-Driven Spherical Robot",
       description: "A self-balancing spherical robot featuring PID-controlled motion, sensor-based obstacle avoidance, and wireless Android app control, developed with MATLAB, Simulink, and embedded systems for agile, precise navigation.",
