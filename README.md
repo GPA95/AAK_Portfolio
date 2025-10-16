@@ -1,9 +1,9 @@
 # AAK Portfolio 🚀  
-A modern, responsive, and stylish portfolio website showcasing my skills, projects, and contact details.
+A modern, responsive, and stylish portfolio website showcasing my education, experience, skills, projects, and contact details.
 
 [🔗 Click here to view the live website](https://ammaar-portfolio-website.vercel.app)
 
-![version](https://img.shields.io/badge/version-1.1.0-purple)  
+![version](https://img.shields.io/badge/version-1.2.0-purple)  
 🌟 If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
@@ -13,8 +13,9 @@ A modern, responsive, and stylish portfolio website showcasing my skills, projec
 ✅ Dark/Light mode toggle 🌗  
 ✅ Smooth animations & transitions  
 ✅ Well-structured project showcase  
-✅ Categorized dropdown **Skills Section** (new!)  
-✅ Hamburger menu for mobile view (now fixed!)  
+✅ Categorized dropdown **Skills Section**
+✅ Timeline vertical view **Experience Section**
+✅ Hamburger menu for mobile view 
 ✅ Contact section with direct links  
 
 ---
@@ -34,13 +35,8 @@ A modern, responsive, and stylish portfolio website showcasing my skills, projec
 
 ---
 
-## 🧠 What’s New in v1.1.0  
-> See full changelog in [`CHANGELOG.md`](./CHANGELOG.md)
-
-- 🧩 Added **Projects**: PDSR & Portfolio v1  
-- 📱 Improved **mobile responsiveness**  
-- 🧠 Redesigned **Skills Section** using categorized dropdowns  
-- 🎨 UI tweaks and layout enhancements  
+## 🧠 What’s New in v1.2.0  
+> See full changelog in [`CHANGELOG.md`](./CHANGELOG.md) 
 
 ---
 
