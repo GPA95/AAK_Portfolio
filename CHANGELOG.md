@@ -6,6 +6,19 @@ Following [Semantic Versioning](https://semver.org/) — MAJOR.MINOR.PATCH
 
 ---
 
+## 🚀 [v1.2.0] – 2025-10-16
+🛠️ Added Education and Experience section
+
+### ✨ New Features:
+- Added dedicated "Experience" section with responsive timeline design.
+- Added new YouTube CTA button alongside updated LinkedIn icon.
+
+### 🎨 Enhancements:
+- Introduced official platform icons (LinkedIn, YouTube).
+- Improved mobile responsiveness and layout spacing in the Intro section.
+
+---
+
 ## 🚀 [v1.1.0] – 2025-05-17  
 🛠️ Significant Enhancements & Mobile Fixes
 
