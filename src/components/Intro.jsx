@@ -1,5 +1,7 @@
 import "./Intro.css";
 import profilePic from "../assets/ME.jpg"; 
+import linkedinIcon from "../assets/linkedin.png";
+import ytIcon from "../assets/youtube.png";
 
 function Intro() {
   return (
@@ -25,9 +27,34 @@ function Intro() {
           With certifications and hands-on hackathon experience, I actively pursue opportunities to apply my skills through impactful projects and internships.
           </p>
           <div className="cta-buttons">
-          <a href="https://drive.google.com/file/d/1xXfnU3xjMk_IAhP-M9iInxPQQvgBe-Xk/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-outline">📄 View My Resume</a>
-          <a href="https://www.linkedin.com/in/ammaar-ahmad-khan/" target="_blank" className="btn btn-outline">🔗 View LinkedIn</a>
-          <a href="https://www.youtube.com/@GPAcer" target="_blank" className="btn btn-outline">🎬 View YouTube channel</a>
+            <a
+              href="https://drive.google.com/file/d/1xXfnU3xjMk_IAhP-M9iInxPQQvgBe-Xk/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+            >
+              📄 View My Resume
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/ammaar-ahmad-khan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+            >
+              <img src={linkedinIcon} alt="LinkedIn" className="btn-icon" />
+              View LinkedIn
+            </a>
+
+            <a
+              href="https://www.youtube.com/@GPAcer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+            >
+              <img src={ytIcon} alt="YouTube" className="btn-icon" />
+              View YouTube channel
+            </a>
           </div>
         </div>
       </div>

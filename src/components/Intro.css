@@ -95,11 +95,22 @@
     background-color: #7F5AF0;
     color: #E0E7FF;
   }
+
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
   
   /* Mobile Adjustments */
   @media (max-width: 768px) {
     .intro {
-      margin-top: 75px; /* Reset margin */
+      margin-top: 100px; /* Reset margin */
+    }
+
+    .intro-image {
+      margin-top: 70px; /* Adjust image position */
     }
 
     .intro-text h1 {
@@ -112,6 +123,8 @@
   
     .cta-buttons {
       flex-direction: column; /* Stack buttons on mobile */
+      gap: 1rem;
+      margin-bottom: 10px; /* Adjust spacing */
     }
   }
   
