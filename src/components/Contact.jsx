@@ -50,7 +50,7 @@ function Contact() {
 
     // Function to open YouTube channel
   const handleYouTubeClick = () => {
-    window.open("https://www.youtube.com/@quranrecitationmadina", "_blank");
+    window.open("https://www.youtube.com/@GPAcer", "_blank");
   };
 
   return (

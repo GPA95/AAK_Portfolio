@@ -1,7 +1,7 @@
 import "./Intro.css";
 import profilePic from "../assets/ME.jpg"; 
 import linkedinIcon from "../assets/linkedin.png";
-import ytIcon from "../assets/youtube.png";
+import Git from "../assets/github.png";
 
 function Intro() {
   return (
@@ -47,13 +47,13 @@ function Intro() {
             </a>
 
             <a
-              href="https://www.youtube.com/@GPAcer"
+              href="https://github.com/GPA95"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"
             >
-              <img src={ytIcon} alt="YouTube" className="btn-icon" />
-              View YouTube channel
+              <img src={Git} alt="GitHub" className="btn-icon" />
+              View GitHub
             </a>
           </div>
         </div>
