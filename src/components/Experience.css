@@ -1,4 +1,6 @@
-/* Experience Section */
+/* ============================= */
+/* 🧭 EXPERIENCE SECTION STYLING */
+/* ============================= */
 .experience {
   text-align: center;
   padding: 50px 20px;
@@ -11,7 +13,9 @@
   font-size: 2rem;
 }
 
-/* Timeline Container */
+/* ============================= */
+/* TIMELINE CONTAINER & LINE */
+/* ============================= */
 .timeline {
   position: relative;
   max-width: 800px;
@@ -19,7 +23,6 @@
   padding-left: 20px;
 }
 
-/* Solid Vertical Line */
 .timeline-line {
   position: absolute;
   top: 0;
@@ -32,41 +35,56 @@
   z-index: 1;
 }
 
-/* Timeline Item */
+/* ============================= */
+/* TIMELINE ITEM */
+/* ============================= */
 .timeline-item {
   position: relative;
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   z-index: 2;
 }
 
-/* Circular Logo */
-.timeline-logo {
+/* ============================= */
+/* MULTIPLE LOGOS (VERTICAL STACK) */
+/* ============================= */
+.timeline-logos {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  justify-content: center;
+  align-items: center;
+  gap: 12px; /* spacing between stacked logos */
   position: relative;
-  width: 70px;
-  height: 70px;
+  z-index: 3;
+}
+
+.logo-wrapper {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #7f5af0;
+  background-color: #0a0f1d;
   flex-shrink: 0;
   transition: all 0.3s ease-in-out;
-  background-color: #0a0f1d;
 }
 
-.timeline-logo img {
+.logo-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.timeline-logo:hover {
-  box-shadow: 0 0 15px #7f5af0;
+.logo-wrapper:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 12px #7f5af0;
 }
 
-/* Content */
+/* ============================= */
+/* CONTENT BLOCK */
+/* ============================= */
 .timeline-content {
   background-color: #11172e;
   color: #e0e7ff;
@@ -83,6 +101,11 @@
   font-size: 1.1rem;
 }
 
+.timeline-content h4 {
+  margin: 4px 0;
+  color: #b3b9ff;
+}
+
 .timeline-content .timeline-time {
   display: block;
   font-size: 0.9rem;
@@ -95,17 +118,17 @@
   line-height: 1.6;
 }
 
-/* Desktop: Centered Layout */
+/* ============================= */
+/* DESKTOP: CENTERED TIMELINE */
+/* ============================= */
 @media (min-width: 768px) {
   .timeline-item {
     justify-content: flex-start;
   }
 
-  .timeline-logo {
+  .timeline-logos {
     position: absolute;
     left: 50%;
-    width: 50px;
-    height: 50px;
     transform: translateX(-50%);
   }
 
@@ -115,7 +138,9 @@
   }
 }
 
-/* Mobile: Left-aligned Layout */
+/* ============================= */
+/* MOBILE: LEFT-ALIGNED TIMELINE */
+/* ============================= */
 @media (max-width: 767px) {
   .timeline-line {
     left: 30px;
@@ -126,13 +151,14 @@
     align-items: flex-start;
   }
 
-  .timeline-logo {
+  .timeline-logos {
     position: absolute;
-    left: 15px;
+    left: 10px;
+    flex-direction: column; /* maintain vertical stack on mobile */
   }
 
   .timeline-content {
-    margin-left: 80px;
+    margin-left: 90px;
     text-align: left;
     width: calc(100% - 100px);
   }

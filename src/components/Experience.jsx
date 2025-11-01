@@ -1,7 +1,9 @@
 import React from "react";
 import "./Experience.css";
-import ibmLogo from "../assets/ibm_logo.png"; // replace with actual logo path
-import irlLogo from "../assets/irl_logo.png"; // replace with actual logo path
+import edunetLogo from "../assets/edunet.jpg";
+import ibmLogo from "../assets/ibm_logo.png";
+import aicteLogo from "../assets/AICTE.png";
+import irlLogo from "../assets/irl_logo.png";
 
 const Experience = () => {
   const experiences = [
@@ -12,7 +14,7 @@ const Experience = () => {
       time: "September 2025 – October 2025",
       description:
         "Developed an AI-powered Study Buddy, gaining hands-on expertise in Generative AI, Prompt Engineering, Machine Learning, NLP, and Cloud Computing with IBM Watson Studio.",
-      image: ibmLogo,
+      images: [edunetLogo, aicteLogo, ibmLogo], // multiple logos here
     },
     {
       title: "Integral Robotics Lab (IRL), Integral University Lucknow",
@@ -21,7 +23,7 @@ const Experience = () => {
       time: "August 2024 – November 2024",
       description:
         "Worked on the Pendulum-Driven Spherical Robot (PDSR) project, focusing on system integration, motion control, and documentation for research and experimental validation.",
-      image: irlLogo,
+      images: [irlLogo],
     },
   ];
 
@@ -31,8 +33,12 @@ const Experience = () => {
       <div className="timeline">
         {experiences.map((exp, index) => (
           <div key={index} className="timeline-item">
-            <div className="timeline-logo">
-              <img src={exp.image} alt={`${exp.title} logo`} />
+            <div className="timeline-logos">
+              {exp.images.map((img, i) => (
+                <div key={i} className="logo-wrapper">
+                  <img src={img} alt={`${exp.title} logo ${i + 1}`} />
+                </div>
+              ))}
             </div>
             <div className="timeline-content">
               <h3>{exp.title}</h3>
