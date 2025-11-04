@@ -9,7 +9,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Edunet Foundation - AICTE Internship (with IBM SkillsBuild)",
-      role: "Intern",
+      role: "Artificial Intelligence Intern",
       sub: "Artificial Intelligence & Cloud Technologies",
       time: "September 2025 – October 2025",
       description:
