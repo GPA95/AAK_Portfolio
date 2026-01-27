@@ -1,5 +1,7 @@
 import React from "react";
 import "./Experience.css";
+import Sabudh from "../assets/sabudh.jpg";
+import STPI from "../assets/STPI.jpg";
 import edunetLogo from "../assets/edunet.jpg";
 import ibmLogo from "../assets/ibm_logo.png";
 import aicteLogo from "../assets/AICTE.png";
@@ -7,6 +9,15 @@ import irlLogo from "../assets/irl_logo.png";
 
 const Experience = () => {
   const experiences = [
+    {
+      title: "Sabudh Foundation (STPI Data Science Program)",
+      role: "Part-Time Data Science Intern",
+      sub: "Machine Learning & Natural Language Processing",
+      time: "January 2026 – Present",
+      description:
+        "Selected for a 6-month, part-time data science internship focused on ML and NLP within Sabudh’s structured STPI-backed training program.",
+      images: [Sabudh, STPI], // multiple logos here
+    },
     {
       title: "Edunet Foundation - AICTE Internship (with IBM SkillsBuild)",
       role: "Artificial Intelligence Intern",
