@@ -24,7 +24,7 @@ const Experience = () => {
       sub: "Artificial Intelligence & Cloud Technologies",
       time: "September 2025 – October 2025",
       description:
-        "Developed an AI-powered Study Buddy, gaining hands-on expertise in Generative AI, Prompt Engineering, Machine Learning, NLP, and Cloud Computing with IBM Watson Studio.",
+        "Developed an AI-powered Study Assistant, gaining hands-on expertise in Generative AI, Prompt Engineering, Machine Learning, NLP, and Cloud Computing with IBM Watson Studio.",
       images: [edunetLogo, aicteLogo, ibmLogo], // multiple logos here
     },
     {
