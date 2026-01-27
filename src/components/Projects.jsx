@@ -11,10 +11,10 @@ import SGPAI from "../assets/SGPAI.png";
 function Projects() {
   const projects = [
     {
-      title: "AI-Powered Study Assistant",
+      title: "Study Guide & Personal Asisstant",
       description: "An AI-driven web app built with Streamlit and Gemini 2.5 Flash API that explains concepts, summarizes topics, extracts content from PDFs, and generates quizzes, thereby providing fast, interactive academic support through a clean chat-based interface.",
       image: SGPAI, // Ensure this image exists
-      githubLink: "https://github.com/GPA95/AI_StudyBuddy",
+      githubLink: "https://github.com/GPA95/AI_StudyBuddySGPA",
     },
     {
       title: "Pendulum-Driven Spherical Robot",
@@ -36,7 +36,7 @@ function Projects() {
     },
     {
       title: "Personal Portfolio Website",
-      description: "A modern, responsive personal portfolio website built with React.js and Vite. It features a dynamic theme toggle, project showcase, and interactive skill highlights, providing a professional way to display my work and skills.",
+      description: "A modern, responsive personal portfolio website built with React.js and Vite. It features a dynamic theme toggle, experience timeline, project showcase, and interactive skill highlights, providing a professional way to display my work and skills.",
       image: APW, // Ensure this image exists
       githubLink: "https://github.com/GPA95/AAK_Portfolio",
     },
