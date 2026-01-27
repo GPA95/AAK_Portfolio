@@ -14,7 +14,7 @@ function Projects() {
       title: "Study Guide & Personal Asisstant",
       description: "An AI-driven web app built with Streamlit and Gemini 2.5 Flash API that explains concepts, summarizes topics, extracts content from PDFs, and generates quizzes, thereby providing fast, interactive academic support through a clean chat-based interface.",
       image: SGPAI, // Ensure this image exists
-      githubLink: "https://github.com/GPA95/AI_StudyBuddySGPA",
+      githubLink: "https://github.com/GPA95/SGPA",
     },
     {
       title: "Pendulum-Driven Spherical Robot",
