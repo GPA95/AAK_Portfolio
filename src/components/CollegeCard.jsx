@@ -18,7 +18,7 @@ export default function CollegeCard() {
 
       <div className="edu-bottom">
         <p><strong>CGPA:</strong> 8.0 (as of 6th Semester)</p>
-        <p><strong>Relevant Coursework:</strong> Artificial Intelligence, Data Structures and Algorithms, Full-Stack Web Development, Database Management Systems, Cloud Computing, Operating Systems, Human Computer Interaction</p>
+        <p><strong>Relevant Coursework:</strong> Artificial Intelligence, Data Structures and Algorithms, Full-Stack Web Development, Database Management Systems, Cloud Computing, Human Computer Interaction</p>
 
         {/* Commenting out YearAccordion components */}
         {/* 
