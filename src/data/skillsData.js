@@ -13,6 +13,7 @@ import ExpressJS from "../assets/expressjs.png";
 import MongoDB from "../assets/mongodb.png";
 import API from "../assets/API.png";
 import Pandas from "../assets/pandas.png";
+import SKL from "../assets/skl.png";
 import Numpy from "../assets/numpylogo.svg";
 import Matplotlib from "../assets/Matplotlib_icon.svg";
 import Seaborn from "../assets/seaborn-1.svg";
@@ -72,6 +73,7 @@ const skillCategories = [
     title: "📚 Libraries",
     skills: [
       { name: "Pandas", description: "Efficient data manipulation and preprocessing", image: Pandas },
+      { name: "Scikit-Learn", description: "Machine learning library for data analysis and modeling", image: SKL },
       { name: "NumPy", description: "Array operations and numerical computing", image: Numpy },
       { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
       { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
