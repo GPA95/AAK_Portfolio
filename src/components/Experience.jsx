@@ -10,12 +10,12 @@ import irlLogo from "../assets/irl_logo.png";
 const Experience = () => {
   const experiences = [
     {
-      title: "Sabudh Foundation (STPI Data Science Program)",
+      title: "Sabudh Foundation (STPI Program)",
       role: "Part-Time Data Science Intern",
       sub: "Machine Learning & Natural Language Processing",
       time: "January 2026 – Present",
       description:
-        "Selected for a 6-month, part-time data science internship focused on ML and NLP within Sabudh’s structured STPI-backed training program.",
+        "Selected for a 6-month Data Science internship focused on ML and NLP through rigorous coursework, lectures, and hands-on application using Python and its data science libraries.",
       images: [Sabudh, STPI], // multiple logos here
     },
     {
