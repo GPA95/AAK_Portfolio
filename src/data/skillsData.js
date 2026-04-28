@@ -47,12 +47,24 @@ const skillCategories = [
   {
     title: "💻 Programming Languages",
     skills: [
-      { name: "Python", description: "Experienced in data analysis, scripting, and automation", image: Python },
+      { name: "Python", description: "Experienced in data analysis, scripting, and visualization", image: Python },
+      { name: "SQL", description: "Proficient in database management and MySQL querying", image: SQL },
+      { name: "JavaScript", description: "Frontend logic, dynamic UI interactions, and DOM manipulation", image: JavaScript },
       { name: "C", description: "Strong foundation in low-level programming and data structures", image: C },
       { name: "C++", description: "Object-oriented programming and competitive programming", image: CPP },
       { name: "Java", description: "Skilled in OOP and desktop/Android development basics", image: Java },
-      { name: "SQL", description: "Proficient in database management and MySQL querying", image: SQL },
-      { name: "JavaScript", description: "Frontend logic, dynamic UI interactions, and DOM manipulation", image: JavaScript },
+    ],
+  },
+  {
+    title: "📊 Data & AI",
+    skills: [
+      { name: "Pandas", description: "Efficient data manipulation and preprocessing", image: Pandas },
+      { name: "Scikit-Learn", description: "Machine learning library for data analysis and modeling", image: SKL },
+      { name: "NumPy", description: "Array operations and numerical computing", image: Numpy },
+      { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
+      { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
+      { name: "Plotly", description: "Interactive and dynamic data visualizations", image: Plotly },
+      { name: "Tableau", description: "Interactive dashboards and business data visualization", image: Tableau },
     ],
   },
   {
@@ -66,18 +78,6 @@ const skillCategories = [
       { name: "React", description: "Modern web development with reusable components", image: reactjs },
       { name: "Node.js", description: "Backend development with scalable, event-driven JavaScript runtime", image: NodeJS },
       { name: "API", description: "Interface enabling communication between web apps", image: API },
-
-    ],
-  },
-  {
-    title: "📚 Libraries",
-    skills: [
-      { name: "Pandas", description: "Efficient data manipulation and preprocessing", image: Pandas },
-      { name: "Scikit-Learn", description: "Machine learning library for data analysis and modeling", image: SKL },
-      { name: "NumPy", description: "Array operations and numerical computing", image: Numpy },
-      { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
-      { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
-      { name: "Plotly", description: "Interactive and dynamic data visualizations", image: Plotly },
       { name: "Streamlit", description: "Rapidly building interactive web apps in Python", image: Streamlit },
     ],
   },
@@ -92,29 +92,16 @@ const skillCategories = [
       { name: "Jupyter", description: "Notebook-based code experimentation and reporting", image: Jupyter },
       { name: "Arduino IDE", description: "Microcontroller programming for hardware interfacing", image: Arduino },
       { name: "MySQL", description: "Structured data storage and query execution", image: MySQL },
-      { name: "Tableau", description: "Interactive dashboards and business data visualization", image: Tableau },
       { name: "Netlify", description: "Deploying and scaling modern web applications", image: Netlify },
-      
     ],
   },
-  {
-    title: "🧰 Additional Tools",
-    skills: [
-      { name: "Google Drive", description: "Cloud-based document and resource management for study materials", image: Drive },
-      { name: "MS Office", description: "Proficient in Word, Excel, and PowerPoint", image: MSO },
-      { name: "Canva", description: "Design tool for visual content and presentations", image: Canva },
-      { name: "YouTube", description: "Content creation and editing for Islamic videos", image: YT },
-      { name: "Notion", description: "Comprehensive personal, academic, and project management", image: N },
-      { name: "Markdown", description: "Lightweight markup for documentation", image: Markdown },
-      { name: "Audacity", description: "Audio recording and editing for Quran recitations", image: Audacity },
-    ],
-  },
+  
   {
     title: "💼 Professional Skills",
     skills: [
       { name: "Team Collaboration", description: "Engaged in interdisciplinary projects and hackathons and always open to collaborating", image: Team },
       { name: "Time Management", description: "Strategically schedule studies, tasks, and activities into manageable phases and track daily progress consistently", image: Time },
-      { name: "Content Creation", description: "Run my personal Quran YouTube channel and regularly create documents, presentations, and spreadsheets for educational and productivity purposes", image: Content },
+      { name: "Content Creation", description: "Run my personal YouTube channels on Islamic as well as tech content, and regularly create documents, presentations, and spreadsheets for educational and productivity purposes", image: Content },
       { name: "Communication", description: "Value clear and consistent communication with peers; strong oral and written skills, including crafting well-structured educational content", image: Communication},
     ],
   },

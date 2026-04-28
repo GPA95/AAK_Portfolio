@@ -28,7 +28,8 @@ function Navbar() {
 
       {/* Navigation Links */}
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-        <li><a href="#intro" onClick={() => setMenuOpen(false)}>Introduction</a></li>
+        <li><a href="#intro" onClick={() => setMenuOpen(false)}>Home</a></li>
+        <li><a href="#featured" onClick={() => setMenuOpen(false)}>Featured</a></li>
         <li><a href="#education" onClick={() => setMenuOpen(false)}>Education</a></li>
         <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
         <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>

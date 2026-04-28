@@ -113,9 +113,21 @@
   margin-bottom: 10px;
 }
 
-.timeline-content p {
+.timeline-content .timeline-bullets {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.timeline-content .timeline-bullets li {
   font-size: 0.95rem;
   line-height: 1.6;
+  margin-bottom: 8px;
+  color: #e0e7ff;
+}
+
+.timeline-content .timeline-bullets li::marker {
+  color: #7f5af0;
 }
 
 /* ============================= */

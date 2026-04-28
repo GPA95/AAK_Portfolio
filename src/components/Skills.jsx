@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Skills.css";
 import skillCategories from "../data/skillsData.js";
 
 function Skills() {
-  const [openCategory, setOpenCategory] = useState(null);
-
-  const toggleCategory = (index) => {
-    setOpenCategory(openCategory === index ? null : index);
-  };
-
   return (
     <section id="skills" className="skills">
       <h2>SKILLS</h2>
@@ -16,25 +10,17 @@ function Skills() {
 
       <div className="skill-categories">
         {skillCategories.map((category, index) => (
-          <div className="skill-category" key={index}>
-            <button
-              className={`category-button ${openCategory === index ? "open" : ""}`}
-              onClick={() => toggleCategory(index)}
-            >
-              {category.title}
-              <span className="dropdown-icon">{openCategory === index ? "▲" : "▼"}</span>
-            </button>
-            <ul className={`skills-list ${openCategory === index ? "open" : ""}`}>
-              {category.skills.map((skill, idx) => (
-                <li key={idx} className="skill-item">
-                  <img src={skill.image} alt={skill.name} className="skill-icon" />
-                  <div>
-                    <h3>{skill.name}</h3>
-                    <p>{skill.description}</p>
-                  </div>
-                </li>
+          <div className="skills-category" key={index}>
+            <h3>{category.title}</h3>
+            <div className="skills-grid">
+              {category.skills.map((skill) => (
+                <div className="skill-pill" key={skill.name}>
+                  <img src={skill.image} alt={skill.name} />
+                  <span className="skill-name">{skill.name}</span>
+                  <span className="skill-desc">{skill.description}</span>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </div>

@@ -14,7 +14,15 @@
 }
 
 /* Apply Theme to All Sections */
-.navbar, .intro, .education, .experience, .projects, .skills, .contact, .footer {
+.navbar,
+.intro,
+.education,
+.featured,
+.experience,
+.projects,
+.skills,
+.contact,
+.footer {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -51,14 +59,15 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 2rem;
-    padding-left: 480px;
+    gap: 1.5rem;
+    padding-left: 450px;
     transition: all 0.3s ease-in-out;
 }
 
 .nav-links li a {
     color: var(--text-color);
-    text-decoration: none;;
+    text-decoration: none;
+    ;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     transition: color 0.3s ease-in-out;

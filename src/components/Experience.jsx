@@ -14,8 +14,10 @@ const Experience = () => {
       role: "Part-Time Data Science Intern",
       sub: "Machine Learning & Natural Language Processing",
       time: "January 2026 – Present",
-      description:
-        "Selected for a 6-month Data Science internship focused on ML and NLP through rigorous coursework, lectures, and hands-on application using Python and its data science libraries.",
+      bullets: [
+        "Engaged in hands-on application of Machine Learning and Natural Language Processing using Python and its core data science libraries.",
+        "Strengthening understanding of data science workflows, model training, and analytical problem-solving during a 6-month internship."
+      ],
       images: [Sabudh, STPI], // multiple logos here
     },
     {
@@ -23,8 +25,10 @@ const Experience = () => {
       role: "Artificial Intelligence Intern",
       sub: "Artificial Intelligence & Cloud Technologies",
       time: "September 2025 – October 2025",
-      description:
-        "Developed an AI-powered Study Assistant, gaining hands-on expertise in Generative AI, Prompt Engineering, Machine Learning, NLP, and Cloud Computing with IBM Watson Studio.",
+      bullets: [
+        "Developed an AI-Powered academic assistant for simplified learning and concept understanding.",
+        "Gained expertise in GenAI, Prompt Engg., ML, DL, NLP, and CV, through IBM courses."
+      ],
       images: [edunetLogo, aicteLogo, ibmLogo], // multiple logos here
     },
     {
@@ -32,8 +36,10 @@ const Experience = () => {
       role: "Student Intern",
       sub: "Robotics",
       time: "August 2024 – November 2024",
-      description:
-        "Worked on the Pendulum-Driven Spherical Robot (PDSR) project, focusing on system integration, motion control, and documentation for research and experimental validation.",
+      bullets: [
+        "Prototyped and simulated robotics systems using Arduino, NodeMCU, MATLAB, and Simulink in a pendulum‑driven spherical robot project.",
+        "Learnt hardware‑software integration and basic control systems."
+      ],
       images: [irlLogo],
     },
   ];
@@ -56,7 +62,11 @@ const Experience = () => {
               <h4>Role: {exp.role}</h4>
               <h4>{exp.sub}</h4>
               <span className="timeline-time">{exp.time}</span>
-              <p>{exp.description}</p>
+              <ul className="timeline-bullets">
+                {exp.bullets.map((bullet, idx) => (
+                  <li key={idx}>{bullet}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

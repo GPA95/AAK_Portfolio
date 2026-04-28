@@ -21,17 +21,16 @@ function Intro() {
             Computer Science Junior | AI & Data Science | Web Development
           </p>
           <p className="bio">
-          I’m a 3<sup>rd</sup> year Computer Science student, passionate about solving real-world problems through Artificial Intelligence, Data Science, and Software Engineering.
-          My experience spans across AI, ML, full-stack web development, data visualization, and robotics software.
-          I’ve built projects ranging from full-stack web apps and business dashboards to research-driven robotics and AI chatbots.
-          With certifications and hands-on hackathon experience, I actively pursue opportunities to apply my skills through impactful projects and internships.
+          I’m a third‑year CSE student exploring data science, AI, and full‑stack web development.
+          I enjoy turning messy problems into usable tools, from assistants to dashboards and web apps, 
+          while building foundations in computer science and AI through courses, internships, and hackathons.
           </p>
           <div className="cta-buttons">
             <a
               href="https://drive.google.com/file/d/1xXfnU3xjMk_IAhP-M9iInxPQQvgBe-Xk/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline"
+              className="primary-btn"
             >
               📄 View My Resume
             </a>
