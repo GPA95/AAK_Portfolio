@@ -7,15 +7,25 @@ import PDSR from "../assets/PDSR.jpg";
 import SAW from "../assets/SAW3.jpg";
 import DVBI from "../assets/Graphs.png";
 import SGPAI from "../assets/SGPAI.png";
+import KaggleF1 from "../assets/KaggleF1.png";
 
 function Projects() {
   const projects = [
+    {
+      title: "F1 Pitstop Predictor",
+      problem: "Race strategy teams need to anticipate when a driver will pit in order to optimize tyre strategy and track position.",
+      solution: "A LightGBM-based binary classification model that predicts whether an F1 driver will pit on the next lap using tabular race telemetry and strategy features.",
+      tech: "Python, Pandas, Scikit-learn, LightGBM, Kaggle",
+      outcome: "Achieved 0.9454 ROC AUC on the public leaderboard in Kaggle’s Playground Series S6E5 with a validated baseline pipeline.",
+      image: KaggleF1,
+      githubLink: "https://github.com/GPA95/F1_Pitstop_Predictor",
+    },
     {
       title: "Study Guide & Personal Assistant",
       problem: "Students struggle to organize and summarize scattered study materials for exam prep.",
       solution: "An AI-driven web app that explains concepts, extracts content from PDFs, and generates quizzes through a clean chat interface.",
       tech: "Python, Streamlit, Gemini 2.5 Flash API, PyPDF2",
-      outcome: "Used by 99+ students for centralized exam preparation.",
+      outcome: "Used by 100+ students for centralized exam preparation.",
       image: SGPAI,
       githubLink: "https://github.com/GPA95/SGPA",
     },

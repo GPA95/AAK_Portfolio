@@ -41,7 +41,7 @@ function Featured() {
 
           <div className="featured-impact">
             <ul>
-              <li>Used by 99+ unique students via the deployed app,
+              <li>Used by 100+ unique students via the deployed app,
                 helping classmates centralize concept explanations,
                 summaries, and practice questions in one place.</li>
             </ul>

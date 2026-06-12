@@ -13,7 +13,7 @@ const Experience = () => {
       title: "Sabudh Foundation (STPI Program)",
       role: "Part-Time Data Science Intern",
       sub: "Machine Learning & Natural Language Processing",
-      time: "January 2026 – Present",
+      time: "January 2026 – June 2026",
       bullets: [
         "Engaged in hands-on application of Machine Learning and Natural Language Processing using Python and its core data science libraries.",
         "Strengthening understanding of data science workflows, model training, and analytical problem-solving during a 6-month internship."
