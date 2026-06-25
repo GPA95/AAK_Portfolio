@@ -12,33 +12,33 @@ const Experience = () => {
     {
       title: "Sabudh Foundation (STPI Program)",
       role: "Part-Time Data Science Intern",
-      sub: "Machine Learning & Natural Language Processing",
+      sub: "Data Science (ML & NLP)",
       time: "January 2026 – June 2026",
       bullets: [
-        "Engaged in hands-on application of Machine Learning and Natural Language Processing using Python and its core data science libraries.",
-        "Strengthening understanding of data science workflows, model training, and analytical problem-solving during a 6-month internship."
+        "Gained hands-on experience applying Machine Learning and Natural Language Processing with Python and core data science libraries.",
+        "Strengthened understanding of data science workflows, model training, and analytical problem-solving through structured coursework and practical assignments."
       ],
       images: [Sabudh, STPI], // multiple logos here
     },
     {
       title: "Edunet Foundation - AICTE Internship (with IBM SkillsBuild)",
-      role: "Artificial Intelligence Intern",
+      role: "AI & Cloud Intern",
       sub: "Artificial Intelligence & Cloud Technologies",
       time: "September 2025 – October 2025",
       bullets: [
         "Developed an AI-Powered academic assistant for simplified learning and concept understanding.",
-        "Gained expertise in GenAI, Prompt Engg., ML, DL, NLP, and CV, through IBM courses."
+        "Learnt about AI Ethics, GenAI, Prompt Engg., ML, DL, NLP and CV, through IBM SkillsBuild courses."
       ],
       images: [edunetLogo, aicteLogo, ibmLogo], // multiple logos here
     },
     {
-      title: "Integral Robotics Lab (IRL), Integral University Lucknow",
+      title: "Integral Robotics Lab, Integral University Lucknow",
       role: "Student Intern",
       sub: "Robotics",
       time: "August 2024 – November 2024",
       bullets: [
-        "Prototyped and simulated robotics systems using Arduino, NodeMCU, MATLAB, and Simulink in a pendulum‑driven spherical robot project.",
-        "Learnt hardware‑software integration and basic control systems."
+        "Prototyped and simulated robotics systems using Arduino, NodeMCU, MATLAB and Simulink in a Pendulum‑Driven Spherical Robot project.",
+        "Presented the project during the NBA accreditation visit, after which the department received accreditation for 2025–2028."
       ],
       images: [irlLogo],
     },
