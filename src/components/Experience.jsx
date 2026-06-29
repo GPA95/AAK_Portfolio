@@ -33,7 +33,7 @@ const Experience = () => {
     },
     {
       title: "Integral Robotics Lab, Integral University Lucknow",
-      role: "Student Intern",
+      role: "Robotics Intern",
       sub: "Robotics",
       time: "August 2024 – November 2024",
       bullets: [
