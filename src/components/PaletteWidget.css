@@ -1,0 +1,169 @@
+/* ═══════════════════════════════════════════════════════
+   PaletteWidget.css
+   Temporary dev-only palette switcher.
+   Floats above the CTA buttons in the Intro section.
+   Delete this file + PaletteWidget.jsx when done testing.
+   ═══════════════════════════════════════════════════════ */
+
+.palette-widget {
+  display:         flex;
+  align-items:     center;
+  gap:             10px;
+  margin-top:      18px;
+  flex-wrap:       wrap;
+  justify-content: center;
+
+  /* Subtle dev-badge look so it's clearly a testing tool */
+  background:      rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  border:          1px dashed rgba(255, 255, 255, 0.18);
+  border-radius:   10px;
+  padding:         10px 16px;
+}
+
+/* ── Select dropdown ───────────────────────────────────── */
+.palette-select {
+  appearance:    none;
+  -webkit-appearance: none;
+  background:    rgba(255, 255, 255, 0.08);
+  color:         #f0f0f0;
+  border:        1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
+  padding:       6px 34px 6px 12px;
+  font-size:     0.82rem;
+  font-weight:   600;
+  font-family:   inherit;
+  cursor:        pointer;
+  outline:       none;
+  min-width:     230px;
+  transition:    border-color 0.2s ease, background 0.2s ease;
+
+  /* Custom chevron */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23ffffff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat:   no-repeat;
+  background-position: right 10px center;
+}
+
+.palette-select:hover,
+.palette-select:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+.palette-select option {
+  background: #1a1a2e;
+  color:      #f0f0f0;
+}
+
+/* ── Light / Dark mode toggle ──────────────────────────── */
+.palette-mode-btn {
+  font-size:    0.78rem;
+  font-weight:  700;
+  font-family:  inherit;
+  padding:      6px 14px;
+  border-radius: 6px;
+  border:       1px solid rgba(255, 255, 255, 0.22);
+  cursor:       pointer;
+  transition:   background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  white-space:  nowrap;
+}
+
+.palette-mode-btn.is-dark {
+  background: rgba(255, 255, 255, 0.07);
+  color:      #e0e0e0;
+}
+
+.palette-mode-btn.is-light {
+  background: rgba(255, 255, 255, 0.88);
+  color:      #111;
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.palette-mode-btn:hover {
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+/* ── Reset pill ────────────────────────────────────────── */
+.palette-reset-btn {
+  font-size:     0.76rem;
+  font-weight:   600;
+  font-family:   inherit;
+  padding:       5px 12px;
+  border-radius: 999px;
+  border:        1px solid rgba(255, 80, 80, 0.4);
+  background:    rgba(255, 80, 80, 0.10);
+  color:         #ff8080;
+  cursor:        pointer;
+  transition:    background 0.2s ease, border-color 0.2s ease;
+  white-space:   nowrap;
+}
+
+.palette-reset-btn:hover {
+  background:    rgba(255, 80, 80, 0.22);
+  border-color:  rgba(255, 80, 80, 0.7);
+  color:         #ffaaaa;
+}
+
+/* ── DEV LABEL (optional — cosmetic only) ─────────────── */
+.palette-widget::before {
+  content:      "DEV PREVIEW";
+  font-size:    0.58rem;
+  font-weight:  800;
+  letter-spacing: 0.12em;
+  color:        rgba(255, 255, 255, 0.35);
+  position:     absolute;
+  top:          -9px;
+  left:         50%;
+  transform:    translateX(-50%);
+  background:   #0a0a0a;
+  padding:      0 6px;
+  white-space:  nowrap;
+  pointer-events: none;
+}
+
+/* Position context for the ::before label */
+.palette-widget {
+  position: relative;
+}
+
+/* ── Light-mode adaptation for widget itself ───────────── */
+/* When light-theme is active on <html>, invert the widget bg */
+.light-theme .palette-widget {
+  background:   rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.light-theme .palette-select {
+  background-color: rgba(0, 0, 0, 0.04);
+  color:            #111;
+  border-color:     rgba(0, 0, 0, 0.18);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23111111' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.light-theme .palette-select option {
+  background: #fff;
+  color:      #111;
+}
+
+.light-theme .palette-mode-btn.is-light {
+  background:   rgba(0, 0, 0, 0.06);
+  color:        #222;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .palette-widget::before {
+  background: var(--bg-primary, #f8f8f8);
+  color:      rgba(0, 0, 0, 0.3);
+}
+
+/* ── Responsive: full-width on small screens ───────────── */
+@media (max-width: 480px) {
+  .palette-widget {
+    flex-direction: column;
+    align-items:    stretch;
+  }
+  .palette-select {
+    min-width: unset;
+    width:     100%;
+  }
+}

@@ -1,0 +1,572 @@
+/* ==========================================================================
+   palette-preview.css
+   Zero-Duplicate Palette Testing System
+   ─────────────────────────────────────────────────────────────────────────
+   HOW TO USE IN BROWSER (Inspect Element → Console):
+     document.documentElement.setAttribute('data-preview', 'palette-1')
+     document.documentElement.setAttribute('data-preview', 'palette-2')
+     document.documentElement.setAttribute('data-preview', 'palette-3')
+     document.documentElement.setAttribute('data-preview', 'palette-4')
+     document.documentElement.removeAttribute('data-preview')  ← restore default
+   ─────────────────────────────────────────────────────────────────────────
+   LIGHT MODE: Add class .light-theme to <html> alongside data-preview.
+     document.documentElement.classList.add('light-theme')
+     document.documentElement.classList.remove('light-theme')
+   ========================================================================== */
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §1  PALETTE 1 — MINIMAL TECH (Slate & Mint)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Dark Mode (default) */
+[data-preview="palette-1"] {
+  --bg-primary:        #0F172A;
+  --bg-section:        #1E293B;
+  --text-primary:      #F8FAFC;
+  --text-secondary:    #94A3B8;
+  --accent:            #34D399;
+  --accent-hover:      #10B981;
+  --accent-glow:       rgba(52, 211, 153, 0.35);
+  --border:            #334155;
+  --card-bg:           #1E293B;
+  --card-border:       rgba(52, 211, 153, 0.2);
+  --card-border-hover: rgba(52, 211, 153, 0.55);
+  --chip-bg:           rgba(52, 211, 153, 0.10);
+  --chip-border:       rgba(52, 211, 153, 0.28);
+  --timeline-line:     #34D399;
+  --input-bg:          #1E293B;
+  --logo-glow:         #34D399;
+  --section-divider:   rgba(52, 211, 153, 0.15);
+  --muted-text:        #94A3B8;
+}
+
+/* Light Mode override */
+[data-preview="palette-1"].light-theme {
+  --bg-primary:        #F8FAFC;
+  --bg-section:        #F1F5F9;
+  --text-primary:      #0F172A;
+  --text-secondary:    #475569;
+  --accent:            #059669;
+  --accent-hover:      #047857;
+  --accent-glow:       rgba(5, 150, 105, 0.25);
+  --border:            #E2E8F0;
+  --card-bg:           #F1F5F9;
+  --card-border:       rgba(5, 150, 105, 0.18);
+  --card-border-hover: rgba(5, 150, 105, 0.50);
+  --chip-bg:           rgba(5, 150, 105, 0.08);
+  --chip-border:       rgba(5, 150, 105, 0.25);
+  --timeline-line:     #059669;
+  --input-bg:          #F1F5F9;
+  --logo-glow:         #059669;
+  --section-divider:   rgba(5, 150, 105, 0.12);
+  --muted-text:        #475569;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §2  PALETTE 2 — CYBER PUNK CLEAN (Obsidian & Neon Teal)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+[data-preview="palette-2"] {
+  --bg-primary:        #0B0F19;
+  --bg-section:        #111827;
+  --text-primary:      #F3F4F6;
+  --text-secondary:    #9CA3AF;
+  --accent:            #06B6D4;
+  --accent-hover:      #0891B2;
+  --accent-glow:       rgba(6, 182, 212, 0.35);
+  --border:            #1F2937;
+  --card-bg:           #111827;
+  --card-border:       rgba(6, 182, 212, 0.2);
+  --card-border-hover: rgba(6, 182, 212, 0.55);
+  --chip-bg:           rgba(6, 182, 212, 0.10);
+  --chip-border:       rgba(6, 182, 212, 0.28);
+  --timeline-line:     #06B6D4;
+  --input-bg:          #111827;
+  --logo-glow:         #06B6D4;
+  --section-divider:   rgba(6, 182, 212, 0.15);
+  --muted-text:        #9CA3AF;
+}
+
+[data-preview="palette-2"].light-theme {
+  --bg-primary:        #FAFAFA;
+  --bg-section:        #F4F4F5;
+  --text-primary:      #09090B;
+  --text-secondary:    #71717A;
+  --accent:            #0891B2;
+  --accent-hover:      #0E7490;
+  --accent-glow:       rgba(8, 145, 178, 0.25);
+  --border:            #E4E4E7;
+  --card-bg:           #F4F4F5;
+  --card-border:       rgba(8, 145, 178, 0.18);
+  --card-border-hover: rgba(8, 145, 178, 0.50);
+  --chip-bg:           rgba(8, 145, 178, 0.08);
+  --chip-border:       rgba(8, 145, 178, 0.25);
+  --timeline-line:     #0891B2;
+  --input-bg:          #F4F4F5;
+  --logo-glow:         #0891B2;
+  --section-divider:   rgba(8, 145, 178, 0.12);
+  --muted-text:        #71717A;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §3  PALETTE 3 — NORDIC SOPHISTICATE (Sage & Warm Cream)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+[data-preview="palette-3"] {
+  --bg-primary:        #1A1C1E;
+  --bg-section:        #212427;
+  --text-primary:      #E3E2E6;
+  --text-secondary:    #909094;
+  --accent:            #A8DADC;
+  --accent-hover:      #81C6C9;
+  --accent-glow:       rgba(168, 218, 220, 0.30);
+  --border:            #43474E;
+  --card-bg:           #212427;
+  --card-border:       rgba(168, 218, 220, 0.18);
+  --card-border-hover: rgba(168, 218, 220, 0.48);
+  --chip-bg:           rgba(168, 218, 220, 0.09);
+  --chip-border:       rgba(168, 218, 220, 0.25);
+  --timeline-line:     #A8DADC;
+  --input-bg:          #212427;
+  --logo-glow:         #A8DADC;
+  --section-divider:   rgba(168, 218, 220, 0.12);
+  --muted-text:        #909094;
+}
+
+[data-preview="palette-3"].light-theme {
+  --bg-primary:        #FDFBF7;
+  --bg-section:        #F5F2EB;
+  --text-primary:      #1A1C1E;
+  --text-secondary:    #5D5E62;
+  --accent:            #457B9D;
+  --accent-hover:      #1D6080;
+  --accent-glow:       rgba(69, 123, 157, 0.22);
+  --border:            #E1E2E5;
+  --card-bg:           #F5F2EB;
+  --card-border:       rgba(69, 123, 157, 0.15);
+  --card-border-hover: rgba(69, 123, 157, 0.45);
+  --chip-bg:           rgba(69, 123, 157, 0.07);
+  --chip-border:       rgba(69, 123, 157, 0.22);
+  --timeline-line:     #457B9D;
+  --input-bg:          #F5F2EB;
+  --logo-glow:         #457B9D;
+  --section-divider:   rgba(69, 123, 157, 0.10);
+  --muted-text:        #5D5E62;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §4  PALETTE 4 — MONOCHROME LUXURY (Ink & Amber)
+   ══════════════════════════════════════════════════════════════════════════ */
+
+[data-preview="palette-4"] {
+  --bg-primary:        #121214;
+  --bg-section:        #1A1A1E;
+  --text-primary:      #F4F4F6;
+  --text-secondary:    #A1A1AA;
+  --accent:            #F59E0B;
+  --accent-hover:      #D97706;
+  --accent-glow:       rgba(245, 158, 11, 0.35);
+  --border:            #27272A;
+  --card-bg:           #1A1A1E;
+  --card-border:       rgba(245, 158, 11, 0.18);
+  --card-border-hover: rgba(245, 158, 11, 0.50);
+  --chip-bg:           rgba(245, 158, 11, 0.09);
+  --chip-border:       rgba(245, 158, 11, 0.25);
+  --timeline-line:     #F59E0B;
+  --input-bg:          #1A1A1E;
+  --logo-glow:         #F59E0B;
+  --section-divider:   rgba(245, 158, 11, 0.12);
+  --muted-text:        #A1A1AA;
+}
+
+[data-preview="palette-4"].light-theme {
+  --bg-primary:        #FFFFFF;
+  --bg-section:        #F7F7F8;
+  --text-primary:      #121214;
+  --text-secondary:    #71717A;
+  --accent:            #D97706;
+  --accent-hover:      #B45309;
+  --accent-glow:       rgba(217, 119, 6, 0.22);
+  --border:            #E4E4E7;
+  --card-bg:           #F7F7F8;
+  --card-border:       rgba(217, 119, 6, 0.15);
+  --card-border-hover: rgba(217, 119, 6, 0.45);
+  --chip-bg:           rgba(217, 119, 6, 0.07);
+  --chip-border:       rgba(217, 119, 6, 0.22);
+  --timeline-line:     #D97706;
+  --input-bg:          #F7F7F8;
+  --logo-glow:         #D97706;
+  --section-divider:   rgba(217, 119, 6, 0.10);
+  --muted-text:        #71717A;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §5  STRUCTURAL WIRING
+   Maps palette tokens to your existing component classes.
+   Only activates when a [data-preview] attribute is set on <html>.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+[data-preview] body,
+[data-preview] html {
+  background-color: var(--bg-primary);
+  color:            var(--text-primary);
+}
+
+/* ── App Root ──────────────────────────────────────────────────────────── */
+[data-preview] .app {
+  background-color: var(--bg-primary);
+  color:            var(--text-primary);
+}
+
+/* ── Navbar ────────────────────────────────────────────────────────────── */
+[data-preview] .navbar {
+  background-color: var(--bg-primary);
+  color:            var(--text-primary);
+}
+
+/* Mobile dropdown inherits correct bg */
+[data-preview] .nav-links {
+  background-color: var(--bg-primary);
+}
+
+[data-preview] .logo {
+  color: var(--text-primary);
+}
+
+[data-preview] .nav-links li a {
+  color: var(--text-primary);
+}
+
+[data-preview] .nav-links li a:hover {
+  color: var(--accent);
+}
+
+[data-preview] .theme-toggle {
+  border-color: var(--accent);
+  color:        var(--text-primary);
+}
+
+[data-preview] .theme-toggle:hover {
+  background: var(--accent);
+  color:      var(--bg-primary);
+}
+
+/* ── Alternating Section Backgrounds ──────────────────────────────────── */
+/*
+   Flow: Intro → Featured → Education → Experience → Projects → Skills → Contact
+   BG:   primary  section    primary     section      primary   section   primary
+*/
+[data-preview] .intro,
+[data-preview] .education,
+[data-preview] .projects,
+[data-preview] .contact {
+  background-color: var(--bg-primary);
+  color:            var(--text-primary);
+  box-shadow:       0px 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+[data-preview] .featured,
+[data-preview] .experience,
+[data-preview] .skills {
+  background-color: var(--bg-section);
+  color:            var(--text-primary);
+  box-shadow:       0px 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Section Headings (h2) ────────────────────────────────────────────── */
+[data-preview] .featured h2,
+[data-preview] .experience h2,
+[data-preview] .education h2,
+[data-preview] .projects h2,
+[data-preview] .skills h2,
+[data-preview] .contact h2 {
+  color: var(--accent);
+}
+
+/* ── Intro Section ────────────────────────────────────────────────────── */
+[data-preview] .intro-image .profile-img {
+  box-shadow: 0px 0px 15px var(--logo-glow);
+}
+
+[data-preview] .intro-text .headline {
+  color: var(--accent);
+}
+
+[data-preview] .intro-text .bio {
+  color: var(--text-secondary);
+}
+
+/* ── Primary Buttons (.btn, .primary-btn, featured primary link) ───────── */
+[data-preview] .btn,
+[data-preview] .primary-btn,
+[data-preview] .featured-link.primary {
+  background-color: var(--accent);
+  color:            var(--bg-primary);
+  box-shadow:       0 12px 30px var(--accent-glow);
+  border:           none;
+}
+
+[data-preview] .btn:hover,
+[data-preview] .primary-btn:hover,
+[data-preview] .featured-link.primary:hover {
+  background-color: var(--accent-hover);
+  box-shadow:       0 16px 40px var(--accent-glow);
+  color:            var(--bg-primary);
+}
+
+/* ── Outline Buttons (.btn-outline, featured secondary link) ───────────── */
+[data-preview] .btn-outline,
+[data-preview] .featured-link.secondary {
+  background:   transparent;
+  border-color: var(--accent);
+  color:        var(--accent);
+  box-shadow:   none;
+}
+
+[data-preview] .btn-outline:hover,
+[data-preview] .featured-link.secondary:hover {
+  background-color: var(--chip-bg);
+  color:            var(--accent);
+}
+
+/* ── Featured Cards ───────────────────────────────────────────────────── */
+[data-preview] .featured-card {
+  background:   var(--card-bg);
+  border-color: var(--card-border);
+  box-shadow:   0 0 0 1px var(--card-border), 0 18px 40px rgba(0, 0, 0, 0.4);
+}
+
+[data-preview] .featured-card:hover {
+  border-color: var(--card-border-hover);
+  box-shadow:   0 0 0 1px var(--card-border-hover), 0 22px 55px rgba(0, 0, 0, 0.5);
+}
+
+[data-preview] .featured-title,
+[data-preview] .featured-impact ul,
+[data-preview] .featured-impact li {
+  color: var(--text-primary);
+}
+
+[data-preview] .featured-problem,
+[data-preview] .featured-solution {
+  color: var(--text-secondary);
+}
+
+[data-preview] .featured-problem strong,
+[data-preview] .featured-solution strong {
+  color: var(--accent);
+}
+
+[data-preview] .featured-impact li::marker {
+  color: var(--accent);
+}
+
+[data-preview] .featured-image-container {
+  background: var(--bg-primary);
+}
+
+/* ── Tech Chips & Highlight Chips ─────────────────────────────────────── */
+[data-preview] .tech-chip {
+  background:   var(--chip-bg);
+  border-color: var(--chip-border);
+  color:        var(--text-secondary);
+}
+
+/* Replaces the hardcoded linear-gradient on .highlight-chip */
+[data-preview] .highlight-chip {
+  background-image: none;
+  background-color: var(--card-bg);
+  border-color:     var(--chip-border);
+  color:            var(--text-primary);
+}
+
+[data-preview] .highlight-chip:hover {
+  border-color: var(--accent);
+  box-shadow:   0 6px 15px var(--accent-glow);
+}
+
+[data-preview] .highlights-strip {
+  border-top-color: var(--section-divider);
+}
+
+[data-preview] .highlights-strip h4 {
+  color: var(--accent);
+}
+
+/* ── Experience Timeline ──────────────────────────────────────────────── */
+[data-preview] .timeline-line {
+  background-color: var(--timeline-line);
+}
+
+[data-preview] .logo-wrapper {
+  border-color:     var(--accent);
+  background-color: var(--bg-primary);
+}
+
+[data-preview] .logo-wrapper:hover {
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+[data-preview] .timeline-content {
+  background-color: var(--card-bg);
+  color:            var(--text-primary);
+  border:           1px solid var(--card-border);
+}
+
+[data-preview] .timeline-content h3,
+[data-preview] .timeline-content .timeline-bullets li {
+  color: var(--text-primary);
+}
+
+[data-preview] .timeline-content h4 {
+  color: var(--text-secondary);
+}
+
+[data-preview] .timeline-content .timeline-time {
+  color: var(--accent);
+}
+
+[data-preview] .timeline-content .timeline-bullets li::marker {
+  color: var(--accent);
+}
+
+/* ── Skills Pills ─────────────────────────────────────────────────────── */
+[data-preview] .skills-category h3 {
+  color: var(--accent);
+}
+
+[data-preview] .skill-pill {
+  background:   var(--card-bg);
+  border-color: var(--chip-border);
+  color:        var(--text-primary);
+  box-shadow:   0 8px 20px rgba(0, 0, 0, 0.22);
+}
+
+[data-preview] .skill-pill:hover {
+  border-color: var(--accent);
+  box-shadow:   0 12px 30px var(--accent-glow);
+}
+
+[data-preview] .skill-desc {
+  color: var(--text-secondary);
+}
+
+/* ── Projects Grid ────────────────────────────────────────────────────── */
+[data-preview] .projects-subtitle {
+  color: var(--text-secondary);
+}
+
+[data-preview] .project-card {
+  background:   var(--card-bg);
+  color:        var(--text-primary);
+  border-color: var(--card-border);
+}
+
+[data-preview] .project-card:hover {
+  border-color: var(--card-border-hover);
+  box-shadow:   0px 12px 30px var(--accent-glow);
+}
+
+[data-preview] .project-content h3 {
+  color: var(--text-primary);
+}
+
+[data-preview] .project-text {
+  color: var(--text-secondary);
+}
+
+[data-preview] .project-text strong {
+  color: var(--accent);
+}
+
+/* ── Contact Form ─────────────────────────────────────────────────────── */
+[data-preview] .contact-form input,
+[data-preview] .contact-form textarea {
+  background-color: var(--input-bg);
+  border-color:     var(--accent);
+  color:            var(--text-primary);
+}
+
+[data-preview] .contact-form input::placeholder,
+[data-preview] .contact-form textarea::placeholder {
+  color: var(--muted-text);
+}
+
+/* ── Education Cards ──────────────────────────────────────────────────── */
+[data-preview] .edu-card {
+  background-color: var(--card-bg);
+  color:            var(--text-primary);
+  box-shadow:       0 0 10px var(--accent-glow);
+}
+
+[data-preview] .year-accordion {
+  border-top-color: var(--border);
+}
+
+/*
+   GRADIENT REMOVAL:
+   Original .year-toggle had: background: linear-gradient(90deg, var(--accent), #9f8fff)
+   and :hover: background: linear-gradient(90deg, #a27cff, #c3afff)
+   Replaced with flat accent color — fully palette-adaptive.
+*/
+[data-preview] .year-toggle {
+  background-image: none;
+  background-color: var(--accent);
+  box-shadow:       0 0 10px var(--accent-glow);
+  color:            var(--bg-primary);
+}
+
+[data-preview] .year-toggle:hover {
+  background-image: none;
+  background-color: var(--accent-hover);
+}
+
+[data-preview] .accordion-toggle {
+  color: var(--accent);
+}
+
+[data-preview] .accordion-toggle:hover {
+  color: var(--accent-hover);
+}
+
+[data-preview] .accordion-content {
+  color: var(--text-secondary);
+}
+
+[data-preview] .semester-column h4 {
+  color: var(--text-primary);
+  border-bottom-color: var(--border);
+}
+
+[data-preview] .semester-column ul {
+  color: var(--text-secondary);
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────── */
+[data-preview] .footer {
+  background-color: var(--bg-section);
+  border-top:       1px solid var(--border);
+}
+
+[data-preview] .footer p {
+  color: var(--text-secondary);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   §6  BRAND-LOCKED SOCIAL BUTTONS  (intentionally NOT palette-driven)
+   ─────────────────────────────────────────────────────────────────────────
+   WhatsApp, Email, LinkedIn, GitHub, YouTube keep their exact brand
+   identity colors regardless of which palette is active. No overrides
+   are applied here — Contact.css rules remain authoritative.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/*  Only structural gap is reinforced — brand colors stay untouched.  */
+[data-preview] .contact-buttons {
+  gap: 10px;
+}

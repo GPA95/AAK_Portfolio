@@ -1,16 +1,11 @@
-.education {
-  padding: 50px 20px;
-  min-width: 93%;
-}
-
 #education h2 {
-  color: #7F5AF0;
+  color:         var(--accent);
   margin-bottom: 20px;
-  text-align: center;
+  text-align:    center;
 }
 
 #education p {
-  color: var(--text-secondary);
+  color:     var(--text-secondary);
   max-width: 700px;
-  margin: 0 auto;
+  margin:    0 auto;
 }

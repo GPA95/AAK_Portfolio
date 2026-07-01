@@ -1,5 +1,5 @@
 import "./Intro.css";
-import profilePic from "../assets/ME.jpg"; 
+import profilePic from "../assets/ME.jpg";
 import linkedinIcon from "../assets/linkedin.png";
 import Git from "../assets/github.png";
 
@@ -7,7 +7,7 @@ function Intro() {
   return (
     <section id="intro" className="intro">
       <div className="intro-content">
-        {/* Profile Image FIRST */}
+        {/* Profile Image */}
         <div className="intro-image">
           <img src={profilePic} alt="Profile" className="profile-img" />
         </div>
@@ -18,12 +18,12 @@ function Intro() {
             Hey, I'm <span className="highlight">Ammaar Ahmad Khan</span>!
           </h1>
           <p className="headline">
-            Computer Science Junior | AI & Data Science | Web Development
+            Computer Science Junior | AI &amp; Data Science | Web Development
           </p>
           <p className="bio">
-          I’m a third‑year CSE student exploring data science, AI, and full‑stack web development.
-          I enjoy turning messy problems into usable tools, from assistants to dashboards and web apps, 
-          while building foundations in computer science and AI through courses, internships, and hackathons.
+            I'm a third‑year CSE student exploring data science, AI, and full‑stack web development.
+            I enjoy turning messy problems into usable tools, from assistants to dashboards and web apps,
+            while building foundations in computer science and AI through courses, internships, and hackathons.
           </p>
           <div className="cta-buttons">
             <a

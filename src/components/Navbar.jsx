@@ -2,24 +2,26 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 
 function Navbar() {
-  const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
+  // Dark mode is the default (:root in index.css).
+  // We only add .light-theme when the user explicitly requests light.
+  const [lightMode, setLightMode] = useState(() => {
+    return localStorage.getItem("theme") === "light";
   });
 
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark-theme");
+    if (lightMode) {
+      document.documentElement.classList.add("light-theme");
     } else {
-      document.documentElement.classList.remove("dark-theme");
+      document.documentElement.classList.remove("light-theme");
     }
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
-  }, [darkMode]);
+    localStorage.setItem("theme", lightMode ? "light" : "dark");
+  }, [lightMode]);
 
   return (
     <nav className="navbar">
-      <h1 className="logo">Ammaar Ahmad Khan</h1>
+      <h1 className="logo">GPAcer</h1>
 
       {/* Hamburger Menu Icon */}
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
@@ -37,9 +39,13 @@ function Navbar() {
         <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
       </ul>
 
-      {/* Dark Mode Toggle */}
-      <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? "🌞" : "🌙"}
+      {/* Light / Dark Mode Toggle */}
+      <button
+        className="theme-toggle"
+        onClick={() => setLightMode((v) => !v)}
+        title={lightMode ? "Switch to dark mode" : "Switch to light mode"}
+      >
+        {lightMode ? "🌑" : "☀️"}
       </button>
     </nav>
   );
