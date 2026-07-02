@@ -20,6 +20,12 @@ import Seaborn from "../assets/seaborn-1.svg";
 import Plotly from "../assets/Plotly.svg";
 import Streamlit from "../assets/streamlit.png";
 import Git from "../assets/Git.svg";
+import SciPy from "../assets/scipy.jpg"
+import Word2Vec from "../assets/nltk.png"
+import NLTK from "../assets/nltk.png"
+import SpaCy from "../assets/SpaCy_logo.svg.webp"
+import XGBoost from "../assets/Python.png"
+import Supabase from "../assets/supabase.png"
 import MATLAB from "../assets/matlab.svg";
 import Simulink from "../assets/Simulink.png";
 import VSCode from "../assets/VSC.png";
@@ -47,62 +53,47 @@ const skillCategories = [
   {
     title: "💻 Programming Languages",
     skills: [
-      { name: "Python", description: "Experienced in data analysis, scripting, and visualization", image: Python },
-      { name: "SQL", description: "Proficient in database management and MySQL querying", image: SQL },
-      { name: "JavaScript", description: "Frontend logic, dynamic UI interactions, and DOM manipulation", image: JavaScript },
-      { name: "C", description: "Strong foundation in low-level programming and data structures", image: C },
-      { name: "C++", description: "Object-oriented programming and competitive programming", image: CPP },
-      { name: "Java", description: "Skilled in OOP and desktop/Android development basics", image: Java },
+      { name: "Python", description: "Primary language for data analysis, ML prototypes, and scripting", image: Python },
+      { name: "SQL", description: "Writing queries, joins, and aggregations for analytics and reporting", image: SQL },
+      { name: "JavaScript", description: "Building interactive UIs and full‑stack web applications", image: JavaScript },
+      { name: "C", description: "Core systems programming and data structures foundations", image: C },
+      { name: "C++", description: "Object‑oriented programming and algorithmic problem solving", image: CPP },
+      { name: "Java", description: "OOP fundamentals and basic desktop/Android development", image: Java },
     ],
   },
+
   {
     title: "📊 Data & AI",
     skills: [
-      { name: "Pandas", description: "Efficient data manipulation and preprocessing", image: Pandas },
-      { name: "Scikit-Learn", description: "Machine learning library for data analysis and modeling", image: SKL },
-      { name: "NumPy", description: "Array operations and numerical computing", image: Numpy },
-      { name: "Matplotlib", description: "Data visualization through plots and charts", image: Matplotlib },
-      { name: "Seaborn", description: "Statistical data visualization", image: Seaborn },
-      { name: "Plotly", description: "Interactive and dynamic data visualizations", image: Plotly },
-      { name: "Tableau", description: "Interactive dashboards and business data visualization", image: Tableau },
+      { name: "NumPy", description: "Numerical computing and vectorized array operations", image: Numpy },
+      { name: "Pandas", description: "Data wrangling, cleaning, and exploratory analysis", image: Pandas },
+      { name: "Scikit‑Learn", description: "Classical ML models, pipelines, and evaluation", image: SKL },
+      { name: "SciPy", description: "Scientific computing and optimization utilities", image: SciPy },
+      { name: "Matplotlib", description: "Custom plots and foundational data visualization", image: Matplotlib },
+      { name: "Seaborn", description: "Statistical data visualization with high‑level APIs", image: Seaborn },
+      { name: "Plotly", description: "Interactive charts and dashboards for data stories", image: Plotly },
+      { name: "Tableau", description: "Business dashboards and visual analytics", image: Tableau },
+      { name: "Word2Vec", description: "Training and using word embeddings for text representation", image: Word2Vec },
+      { name: "NLTK", description: "Text preprocessing and classical NLP pipelines", image: NLTK },
+      { name: "spaCy", description: "Production‑ready NLP for entities, syntax, and more", image: SpaCy },
+      { name: "XGBoost", description: "Gradient‑boosted trees for tabular ML tasks", image: XGBoost },
     ],
   },
+
   {
-    title: "🌐 Web Development",
+    title: "🌐 Web & Backend",
     skills: [
-      { name: "HTML", description: "Markup language expertise for structuring webpages", image: HTML },
-      { name: "CSS", description: "Design, layout, and responsiveness with custom styling", image: CSS },
-      { name: "Bootstrap", description: "Responsive design with prebuilt components", image: Bootstrap },
-      { name: "MongoDB", description: "NoSQL database for flexible, document-based data storage", image: MongoDB },
-      { name: "Express.js", description: "Minimalist web framework for building REST APIs", image: ExpressJS },
-      { name: "React", description: "Modern web development with reusable components", image: reactjs },
-      { name: "Node.js", description: "Backend development with scalable, event-driven JavaScript runtime", image: NodeJS },
-      { name: "API", description: "Interface enabling communication between web apps", image: API },
-      { name: "Streamlit", description: "Rapidly building interactive web apps in Python", image: Streamlit },
-    ],
-  },
-  {
-    title: "🛠️ Tools & Technologies",
-    skills: [
-      { name: "Git", description: "Version control for efficient project collaboration", image: Git },
-      { name: "MATLAB", description: "Numerical computing and data analysis for engineering", image: MATLAB },
-      { name: "Simulink", description: "Graphical modeling and simulation of dynamic systems", image: Simulink },
-      { name: "VS Code", description: "Primary development environment for various languages", image: VSCode },
-      { name: "Anaconda", description: "Data science toolkit management", image: Anaconda },
-      { name: "Jupyter", description: "Notebook-based code experimentation and reporting", image: Jupyter },
-      { name: "Arduino IDE", description: "Microcontroller programming for hardware interfacing", image: Arduino },
-      { name: "MySQL", description: "Structured data storage and query execution", image: MySQL },
-      { name: "Netlify", description: "Deploying and scaling modern web applications", image: Netlify },
-    ],
-  },
-  
-  {
-    title: "💼 Professional Skills",
-    skills: [
-      { name: "Team Collaboration", description: "Engaged in interdisciplinary projects and hackathons and always open to collaborating", image: Team },
-      { name: "Time Management", description: "Strategically schedule studies, tasks, and activities into manageable phases and track daily progress consistently", image: Time },
-      { name: "Content Creation", description: "Run my personal YouTube channels on Islamic as well as tech content, and regularly create documents, presentations, and spreadsheets for educational and productivity purposes", image: Content },
-      { name: "Communication", description: "Value clear and consistent communication with peers; strong oral and written skills, including crafting well-structured educational content", image: Communication},
+      { name: "React.js", description: "Component‑based SPAs and modern frontend architecture", image: reactjs },
+      { name: "HTML", description: "Semantic, accessible markup for the web", image: HTML },
+      { name: "CSS", description: "Responsive layouts with Flexbox/Grid and custom styling", image: CSS },
+      { name: "Bootstrap", description: "Rapid UI development with responsive components", image: Bootstrap },
+      { name: "Node.js", description: "Server‑side JavaScript and backend services", image: NodeJS },
+      { name: "Express.js", description: "Routing and REST API design for web backends", image: ExpressJS },
+      { name: "APIs", description: "Designing and consuming HTTP/JSON APIs between services", image: API },
+      { name: "MongoDB", description: "Document‑based data modeling for MERN applications", image: MongoDB },
+      { name: "Supabase", description: "Postgres‑based backend as a service with auth and storage", image: Supabase },
+      { name: "Streamlit", description: "Python‑based data apps and lightweight dashboards", image: Streamlit },
+      { name: "Git", description: "Version control, branching, and collaborative workflows", image: Git },
     ],
   },
 ];

@@ -17,7 +17,6 @@ function Skills() {
                 <div className="skill-pill" key={skill.name}>
                   <img src={skill.image} alt={skill.name} />
                   <span className="skill-name">{skill.name}</span>
-                  <span className="skill-desc">{skill.description}</span>
                 </div>
               ))}
             </div>

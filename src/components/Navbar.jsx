@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import GPAcerLogo from "../assets/GPAcer_dark.png";
 
 function Navbar() {
   // Dark mode is the default (:root in index.css).
@@ -21,7 +22,9 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">GPAcer</h1>
+      <a href="#intro" className="logo">
+        <img src={GPAcerLogo} alt="GPAcer" className="logo-img" />
+      </a>
 
       {/* Hamburger Menu Icon */}
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>

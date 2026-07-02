@@ -12,13 +12,15 @@ export default function CollegeCard() {
         <div className="edu-right">
           <h3>Integral University, Lucknow, Uttar Pradesh, India</h3>
           <p className="edu-subtitle">B.Tech – Computer Science and Engineering (2023–2027)</p>
-          <p className="edu-subtitle">Ongoing 6th Semester</p>
+          <p className="edu-subtitle">Ongoing 7th Semester</p>
         </div>
       </div>
 
       <div className="edu-bottom">
         <p><strong>CGPA:</strong> 8.0 (as of 6th Semester)</p>
-        <p><strong>Relevant Coursework:</strong> Artificial Intelligence, Data Structures and Algorithms, Full-Stack Web Development, Database Management Systems, Cloud Computing, Human Computer Interaction</p>
+        <p><strong>Coursework:</strong> Artificial Intelligence,
+          Machine Learning, Data Structures & Algorithms, Full-Stack Web Development,
+          Database Management Systems, Operating Systems, Software Engineering, Cloud Computing, Human Computer Interaction</p>
 
         {/* Commenting out YearAccordion components */}
         {/* 

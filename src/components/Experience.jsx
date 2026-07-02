@@ -6,9 +6,20 @@ import edunetLogo from "../assets/edunet.jpg";
 import ibmLogo from "../assets/ibm_logo.png";
 import aicteLogo from "../assets/AICTE.png";
 import irlLogo from "../assets/irl_logo.png";
+import flyrankLogo from "../assets/flyrank.png";
 
 const Experience = () => {
   const experiences = [
+    {
+      title: "FlyRank AI",
+      role: "Backend AI Engineering Intern",
+      sub: "Backend Development",
+      time: "July 2026 – Present",
+      bullets: [
+        "Building RAG system, agentic workflows and APIs for  AI-powered content features, integrating databases with LLMs.",
+      ],
+      images: [flyrankLogo],
+    },
     {
       title: "Sabudh Foundation (STPI Program)",
       role: "Part-Time Data Science Intern",
@@ -26,8 +37,8 @@ const Experience = () => {
       sub: "Artificial Intelligence & Cloud Technologies",
       time: "September 2025 – October 2025",
       bullets: [
-        "Developed an AI-Powered academic assistant for simplified learning and concept understanding.",
-        "Learnt about AI Ethics, GenAI, Prompt Engg., ML, DL, NLP and CV, through IBM SkillsBuild courses."
+        "Developed an AI-Powered academic assistant for easier learning and concept understanding.",
+        "Learnt about AI Ethics, GenAI, Prompt Engg., ML, DL, NLP and CV through IBM SkillsBuild."
       ],
       images: [edunetLogo, aicteLogo, ibmLogo], // multiple logos here
     },
@@ -37,7 +48,7 @@ const Experience = () => {
       sub: "Robotics",
       time: "August 2024 – November 2024",
       bullets: [
-        "Prototyped and simulated robotics systems using Arduino, NodeMCU, MATLAB and Simulink in a Pendulum‑Driven Spherical Robot project.",
+        "Contributed to the stable motion control and WiFi-connected teleoperation of the Pendulum‑Driven Spherical Robot project.",
         "Presented the project during the NBA accreditation visit, after which the department received accreditation for 2025–2028."
       ],
       images: [irlLogo],

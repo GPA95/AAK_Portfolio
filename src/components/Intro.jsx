@@ -18,12 +18,12 @@ function Intro() {
             Hey, I'm <span className="highlight">Ammaar Ahmad Khan</span>!
           </h1>
           <p className="headline">
-            Computer Science Junior | AI &amp; Data Science | Web Development
+            Computer Science Senior | AI &amp; Data Science | Web Development
           </p>
           <p className="bio">
-            I'm a third‑year CSE student exploring data science, AI, and full‑stack web development.
-            I enjoy turning messy problems into usable tools, from assistants to dashboards and web apps,
-            while building foundations in computer science and AI through courses, internships, and hackathons.
+            I’m a final‑year CSE student who enjoys working across data science, AI and full‑stack web development.
+            I've built projects like AI study chatbot, analysis dashboards, web apps and productive tools for students and teams,
+            while steadily deepening my background in core CS, AI and data science through projects, internships, hackathons and contributions.
           </p>
           <div className="cta-buttons">
             <a
