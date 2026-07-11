@@ -10,8 +10,8 @@ function Featured() {
     "Cricket Analytics with AI • IITM Pravartak (AI for All)",
     "AI/ML using Python • IITM Pravartak (AI for All)",
     "Artificial Intelligence Fundamentals • IBM SkillsBuild",
-    "Data Analytics in Python (Workshop) • Mindshare Yuva & IIT (BHU)",
-    "Data Visualization: Empowering Business with Insights (Virtual Job Simulation) • Forage"
+    "Data Analytics in Python • Mindshare Yuva & IIT (BHU)",
+    "Data Visualization: Empowering Business with Insights • Forage"
   ];
 
   return (
