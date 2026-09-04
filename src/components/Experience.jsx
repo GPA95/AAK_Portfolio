@@ -35,9 +35,10 @@ const experiences = [
     title: "TEDxIntegralUniversity 2026",
     role: "Web Development Volunteer",
     sub: "Website Development",
-    time: "April 2026 – Present",
+    time: "April - September 2026",
     bullets: [
-      "Contributing to the TEDxIntegralUniversity 2026 website in collaboration with the organizing team.",
+      "Contributing to the official TEDxIntegralUniversity 2026 event website in collaboration with the web development team.",
+      "Coordinating UI development workflow among teammates as GitHub repo owner: managing the codebase and versions, conducting code reviews, and defining branch/PR strategy for merging all teammates’ contributions.",
     ],
     images: [TedxLogo],
   },
@@ -45,7 +46,7 @@ const experiences = [
     title: "Sabudh Foundation (STPI Program)",
     role: "Part-Time Data Science Intern",
     sub: "Data Science (ML & NLP)",
-    time: "January 2026 – June 2026",
+    time: "January – June 2026",
     bullets: [
       "Gained hands-on experience applying Machine Learning and Natural Language Processing with Python and core data science libraries.",
       "Strengthened understanding of data science workflows, model training, and analytical problem-solving through structured coursework and practical assignments.",
@@ -56,7 +57,7 @@ const experiences = [
     title: "Edunet Foundation - AICTE Internship (with IBM SkillsBuild)",
     role: "AI & Cloud Intern",
     sub: "AI & Cloud Technologies",
-    time: "September 2025 – October 2025",
+    time: "September – October 2025",
     bullets: [
       "Developed an AI-Powered academic assistant for easier learning and concept understanding.",
       "Learnt about AI Ethics, GenAI, Prompt Engg., ML, DL, NLP and CV through IBM SkillsBuild.",
@@ -67,9 +68,10 @@ const experiences = [
     title: "Integral Robotics Lab, Integral University Lucknow",
     role: "Robotics Intern",
     sub: "Robotics",
-    time: "August 2024 – November 2024",
+    time: "August – November 2024",
     bullets: [
-      "Contributed to the stable motion control and WiFi-connected teleoperation of the Pendulum‑Driven Spherical Robot project.",
+      "Learned and applied embedded prgramming and robotics tools on Pendulum-Driven Spherical Robot (PDSR)’s NodeMCU ESP8266.",
+      "Experimented with MATLAB and Simulink for improving motion control and accuracy of the PDSR.",
       "Presented the project during the NBA accreditation visit, after which the department received accreditation for 2025–2028.",
     ],
     images: [irlLogo],

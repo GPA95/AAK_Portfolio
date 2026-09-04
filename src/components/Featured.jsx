@@ -1,6 +1,7 @@
 import React from 'react';
 import './Featured.css';
 import SGPA from '../assets/SGPA_2.png';
+import TEDxIUL from '../assets/TEDxIUL.png';
 
 function Featured() {
   const highlights = [
@@ -18,6 +19,65 @@ function Featured() {
     <section id="featured" className="featured">
       <h2>FEATURED WORK</h2>
 
+      <div className="featured-card">
+        <div className="featured-content">
+          <h3 className="featured-title">TEDxIntegralUniversity 2026 Website</h3>
+
+          <p className="featured-problem">
+            <strong>Problem:</strong> The TEDxIntegralUniversity 2026 event needed an official website for
+            publicity, information, and ticket bookings, with a consistent, responsive UI across all pages.
+          </p>
+
+          <p className="featured-solution">
+            <strong>Solution:</strong> Built the official event website with multi-device responsive pages,
+            including a Venue page with Google Maps integration and travel cards. Coordinated UI development
+            workflow among 4 volunteers as GitHub repo owner: managed the codebase and versions, conducted code
+            reviews, and defined branch/PR strategy for merging all teammates’ contributions.
+          </p>
+
+          <div className="tech-stack-chips">
+            <span className="tech-chip">React</span>
+            <span className="tech-chip">JavaScript</span>
+            <span className="tech-chip">CSS</span>
+            <span className="tech-chip">Git</span>
+            <span className="tech-chip">GitHub</span>
+            <span className="tech-chip">UI/UX</span>
+          </div>
+
+          <div className="featured-impact">
+            <ul>
+              <li>
+                Delivered a cohesive, responsive event website and a clean Git workflow for merging all
+                teammates’ contributions, supporting publicity and ticket bookings for TEDxIntegralUniversity 2026.
+              </li>
+            </ul>
+          </div>
+
+          <div className="featured-links">
+            <a
+              href="https://tedx.iul.ac.in/" // replace with actual live URL
+              className="featured-link primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Site
+            </a>
+            <a
+              href="https://github.com/GPA95/TEDxIUL" // replace with actual repo URL
+              className="featured-link secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repo
+            </a>
+          </div>
+        </div>
+
+        <div className="featured-image-container">
+          <img src={TEDxIUL} alt="TEDxIntegralUniversity 2026 Website" className="featured-image" />
+        </div>
+      </div>
+      
       <div className="featured-card">
         <div className="featured-content">
           <h3 className="featured-title">SGPA: Study Guide & Personal Assistant</h3>

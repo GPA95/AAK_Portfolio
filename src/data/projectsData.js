@@ -8,6 +8,7 @@ import DVBI from "../assets/Graphs.png";
 import SGPAI from "../assets/SGPAI.png";
 import KaggleF1 from "../assets/KaggleF1.png";
 import FPG from "../assets/FPG.png";
+import TEDxIUL from "../assets/TEDxIUL.png";
 
 const projects = [
     {
@@ -27,6 +28,15 @@ const projects = [
         outcome: "Used by 100+ students for centralized exam preparation.",
         image: SGPAI,
         githubLink: "https://github.com/GPA95/SGPA",
+    },
+    {
+        title: "TEDxIntegralUniversity Website",
+        problem: "The TEDxIntegralUniversity 2026 event needed an official website for publicity, information and ticket bookings.",
+        solution: "Contributed to the website by bulding assigned webpages and  designed multi-device responsiveness for all pages, coordinated UI development workflow among contributors as GitHub repo owner.",
+        tech: "React, JavaScript, CSS, Git, GitHub, UI/UX",
+        outcome: "Delivered a cohesive, responsive event website and a clean Git workflow for merging all teammates’ contributions.",
+        image: TEDxIUL, // replace with your actual asset variable
+        githubLink: "https://github.com/GPA95/TEDxIUL", // update with actual repo URL
     },
     {
         title: "Tourism Dataset Analytics",
