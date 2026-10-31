@@ -38,7 +38,7 @@ const experiences = [
     time: "April - September 2026",
     bullets: [
       "Contributing to the official TEDxIntegralUniversity 2026 event website in collaboration with the web development team.",
-      "Coordinating UI development workflow among teammates as GitHub repo owner: managing the codebase and versions, conducting code reviews, and defining branch/PR strategy for merging all teammates’ contributions.",
+      "Coordinating UI development workflow among 4 teammates as GitHub repo owner: managing the codebase and versions, conducting code reviews, and defining branch/PR strategy for merging all teammates’ contributions.",
     ],
     images: [TedxLogo],
   },

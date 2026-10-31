@@ -130,3 +130,37 @@
   background-color: #FF0100;
   color:            white;
 }
+
+@media (max-width: 767px) {
+  .contact {
+    width: 100%;
+    padding: 30px 16px;
+  }
+
+  .contact > p {
+    overflow-wrap: anywhere;
+  }
+
+  .contact-form,
+  .contact-form input,
+  .contact-form textarea,
+  .contact-buttons {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .contact-buttons > button {
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    justify-content: center;
+  }
+}

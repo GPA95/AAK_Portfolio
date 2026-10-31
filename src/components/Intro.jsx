@@ -21,9 +21,10 @@ function Intro() {
             Computer Science Senior | AI &amp; Data Science | Web Development
           </p>
           <p className="bio">
-            I’m a final‑year CSE student who enjoys working across data science, AI and full‑stack web development.
-            I've built projects like AI study chatbot, analysis dashboards, web apps and productive tools for students and teams,
-            while steadily deepening my background in core CS, AI and data science through projects, internships, hackathons and contributions.
+            I’m a final‑year CSE student working across data science, AI and full‑stack web development. <br/>
+            I enjoy turning ideas into practical tools, from AI models and analytics dashboards 
+            to websites and productivity tools for students and teams, while building depth in AI 
+            and data science through projects, internships, hackathons and open‑source contributions.
           </p>
           <div className="cta-buttons">
             <a

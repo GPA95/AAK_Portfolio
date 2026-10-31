@@ -214,13 +214,51 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
+  .featured {
+    width: 100%;
+    min-width: 0;
+    padding: 30px 16px;
+  }
+
+  .featured-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .featured-content {
+    min-width: 0;
+    padding: 24px 16px;
+  }
+
+  .featured-title,
+  .featured-problem,
+  .featured-solution,
+  .featured-impact {
+    overflow-wrap: anywhere;
+  }
+
+  .featured-image-container {
+    width: 100%;
+    height: clamp(180px, 55vw, 300px);
+  }
+
   .featured-links {
     flex-direction: column;
+    align-items: center;
   }
 
   .featured-link {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 320px;
     text-align: center;
-    width:      100%;
+    overflow-wrap: anywhere;
+  }
+
+  .highlight-chip {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }

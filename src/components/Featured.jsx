@@ -5,14 +5,18 @@ import TEDxIUL from '../assets/TEDxIUL.png';
 
 function Featured() {
   const highlights = [
-    "TEDxIntegralUniversity – Web Development Volunteer",
-    "Smart India Hackathon 2025 – Nominee",
+    "TEDxIntegralUniversity – Web Developer & Event Volunteer",
+    "Smart India Hackathon 2025 & 2026 – Team Nominee",
     "Integral Prompt War - Third Place",
     "Cricket Analytics with AI • IITM Pravartak (AI for All)",
     "AI/ML using Python • IITM Pravartak (AI for All)",
+    "AI for Educators • IITM Pravartak (AI for All)",
     "Artificial Intelligence Fundamentals • IBM SkillsBuild",
     "Data Analytics in Python • Mindshare Yuva & IIT (BHU)",
-    "Data Visualization: Empowering Business with Insights • Forage"
+    "Data Visualization: Empowering Business with Insights • Forage",
+    "Introduction to Model Context Protocol • Anthropic Education",
+    "IELTS Academic: Overall Band 8.0 • IDP",
+    "MLH ELEMENTX 2026 - Technical Team Member",
   ];
 
   return (
@@ -55,7 +59,7 @@ function Featured() {
 
           <div className="featured-links">
             <a
-              href="https://tedx.iul.ac.in/" // replace with actual live URL
+              href="https://https://te-dx-iul.vercel.app/" // replace with actual live URL
               className="featured-link primary"
               target="_blank"
               rel="noopener noreferrer"
@@ -101,7 +105,7 @@ function Featured() {
 
           <div className="featured-impact">
             <ul>
-              <li>Used by 100+ unique students via the deployed app,
+              <li>Used by 150+ unique students via the deployed app,
                 helping classmates centralize concept explanations,
                 summaries, and practice questions in one place.</li>
             </ul>

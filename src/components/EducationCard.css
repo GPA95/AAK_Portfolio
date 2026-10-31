@@ -169,7 +169,7 @@
 }
 
 /* Mobile Responsive */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .year-content {
     flex-direction: column;
     text-align:     center;
@@ -182,7 +182,10 @@
   }
 
   .edu-card {
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding: 16px;
   }
 
   .edu-top {
@@ -196,7 +199,30 @@
     text-align:   left;
   }
 
+  .edu-right,
+  .edu-bottom,
+  .year-content {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .edu-right h3 {
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    overflow-wrap: anywhere;
+  }
+
   .edu-bottom p {
     font-size: 1rem;
+    overflow-wrap: anywhere;
+  }
+
+  .semester-column {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .year-toggle {
+    width: 100%;
+    box-sizing: border-box;
   }
 }

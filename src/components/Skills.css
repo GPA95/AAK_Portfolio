@@ -66,8 +66,25 @@
 
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .skills {
     padding: 30px 15px;
+  }
+
+  .skill-categories,
+  .skills-category,
+  .skills-grid {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .skill-pill {
+    max-width: 100%;
+  }
+
+  .skill-name {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }

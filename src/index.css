@@ -38,6 +38,12 @@
 }
 
 /* ── Base Reset ─────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -62,6 +68,34 @@ section {
   border-radius: 10px;
   margin: 2rem auto;
   max-width: 90%;
+}
+
+@media (max-width: 767px) {
+  #root,
+  .app {
+    width: 100%;
+    min-width: 0;
+  }
+
+  #root .app section {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #root .app section > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
 }
 
 /* ── Global Primary Button ──────────────────────────────────────────────── */
